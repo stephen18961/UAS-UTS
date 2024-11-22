@@ -1,0 +1,6580 @@
+
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230101, '2023-01-01 00:00:00.000', 1, 'Sunday', 'W01', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-02 00:00:00.000', 'Sunday', 31, 20220102
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230102, '2023-01-02 00:00:00.000', 2, 'Monday', 'W01', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-03 00:00:00.000', 'Monday', 31, 20220103
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230103, '2023-01-03 00:00:00.000', 3, 'Tuesday', 'W01', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-04 00:00:00.000', 'Tuesday', 31, 20220104
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230104, '2023-01-04 00:00:00.000', 4, 'Wednesday', 'W01', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-05 00:00:00.000', 'Wednesday', 31, 20220105
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230105, '2023-01-05 00:00:00.000', 5, 'Thursday', 'W02', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-06 00:00:00.000', 'Thursday', 31, 20220106
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230106, '2023-01-06 00:00:00.000', 6, 'Friday', 'W02', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-07 00:00:00.000', 'Friday', 31, 20220107
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230107, '2023-01-07 00:00:00.000', 7, 'Saturday', 'W02', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-08 00:00:00.000', 'Saturday', 31, 20220108
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230108, '2023-01-08 00:00:00.000', 8, 'Sunday', 'W02', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-09 00:00:00.000', 'Sunday', 31, 20220109
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230109, '2023-01-09 00:00:00.000', 9, 'Monday', 'W02', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-10 00:00:00.000', 'Monday', 31, 20220110
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230110, '2023-01-10 00:00:00.000', 10, 'Tuesday', 'W02', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-11 00:00:00.000', 'Tuesday', 31, 20220111
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230111, '2023-01-11 00:00:00.000', 11, 'Wednesday', 'W02', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-12 00:00:00.000', 'Wednesday', 31, 20220112
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230112, '2023-01-12 00:00:00.000', 12, 'Thursday', 'W03', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-13 00:00:00.000', 'Thursday', 31, 20220113
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230113, '2023-01-13 00:00:00.000', 13, 'Friday', 'W03', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-14 00:00:00.000', 'Friday', 31, 20220114
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230114, '2023-01-14 00:00:00.000', 14, 'Saturday', 'W03', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-15 00:00:00.000', 'Saturday', 31, 20220115
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230115, '2023-01-15 00:00:00.000', 15, 'Sunday', 'W03', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-16 00:00:00.000', 'Sunday', 31, 20220116
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230116, '2023-01-16 00:00:00.000', 16, 'Monday', 'W03', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-17 00:00:00.000', 'Monday', 31, 20220117
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230117, '2023-01-17 00:00:00.000', 17, 'Tuesday', 'W03', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-18 00:00:00.000', 'Tuesday', 31, 20220118
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230118, '2023-01-18 00:00:00.000', 18, 'Wednesday', 'W03', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-19 00:00:00.000', 'Wednesday', 31, 20220119
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230119, '2023-01-19 00:00:00.000', 19, 'Thursday', 'W04', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-20 00:00:00.000', 'Thursday', 31, 20220120
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230120, '2023-01-20 00:00:00.000', 20, 'Friday', 'W04', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-21 00:00:00.000', 'Friday', 31, 20220121
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230121, '2023-01-21 00:00:00.000', 21, 'Saturday', 'W04', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-22 00:00:00.000', 'Saturday', 31, 20220122
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230122, '2023-01-22 00:00:00.000', 22, 'Sunday', 'W04', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-23 00:00:00.000', 'Sunday', 31, 20220123
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230123, '2023-01-23 00:00:00.000', 23, 'Monday', 'W04', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-24 00:00:00.000', 'Monday', 31, 20220124
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230124, '2023-01-24 00:00:00.000', 24, 'Tuesday', 'W04', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-25 00:00:00.000', 'Tuesday', 31, 20220125
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230125, '2023-01-25 00:00:00.000', 25, 'Wednesday', 'W04', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-26 00:00:00.000', 'Wednesday', 31, 20220126
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230126, '2023-01-26 00:00:00.000', 26, 'Thursday', 'W05', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-27 00:00:00.000', 'Thursday', 31, 20220127
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230127, '2023-01-27 00:00:00.000', 27, 'Friday', 'W05', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-28 00:00:00.000', 'Friday', 31, 20220128
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230128, '2023-01-28 00:00:00.000', 28, 'Saturday', 'W05', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-29 00:00:00.000', 'Saturday', 31, 20220129
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230129, '2023-01-29 00:00:00.000', 29, 'Sunday', 'W05', 'Weekend',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-30 00:00:00.000', 'Sunday', 31, 20220130
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230130, '2023-01-30 00:00:00.000', 30, 'Monday', 'W05', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-01-31 00:00:00.000', 'Monday', 31, 20220131
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230131, '2023-01-31 00:00:00.000', 31, 'Tuesday', 'W05', 'Weekday',
+        'January', '202301', 'Q1', 2023, 'Non Festive',
+        '2022-02-01 00:00:00.000', 'Tuesday', 31, 20220201
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230201, '2023-02-01 00:00:00.000', 1, 'Wednesday', 'W05', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-02 00:00:00.000', 'Wednesday', 28, 20220202
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230202, '2023-02-02 00:00:00.000', 2, 'Thursday', 'W06', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-03 00:00:00.000', 'Thursday', 28, 20220203
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230203, '2023-02-03 00:00:00.000', 3, 'Friday', 'W06', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-04 00:00:00.000', 'Friday', 28, 20220204
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230204, '2023-02-04 00:00:00.000', 4, 'Saturday', 'W06', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-05 00:00:00.000', 'Saturday', 28, 20220205
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230205, '2023-02-05 00:00:00.000', 5, 'Sunday', 'W06', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-06 00:00:00.000', 'Sunday', 28, 20220206
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230206, '2023-02-06 00:00:00.000', 6, 'Monday', 'W06', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-07 00:00:00.000', 'Monday', 28, 20220207
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230207, '2023-02-07 00:00:00.000', 7, 'Tuesday', 'W06', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-08 00:00:00.000', 'Tuesday', 28, 20220208
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230208, '2023-02-08 00:00:00.000', 8, 'Wednesday', 'W06', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-09 00:00:00.000', 'Wednesday', 28, 20220209
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230209, '2023-02-09 00:00:00.000', 9, 'Thursday', 'W07', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-10 00:00:00.000', 'Thursday', 28, 20220210
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230210, '2023-02-10 00:00:00.000', 10, 'Friday', 'W07', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-11 00:00:00.000', 'Friday', 28, 20220211
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230211, '2023-02-11 00:00:00.000', 11, 'Saturday', 'W07', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-12 00:00:00.000', 'Saturday', 28, 20220212
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230212, '2023-02-12 00:00:00.000', 12, 'Sunday', 'W07', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-13 00:00:00.000', 'Sunday', 28, 20220213
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230213, '2023-02-13 00:00:00.000', 13, 'Monday', 'W07', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-14 00:00:00.000', 'Monday', 28, 20220214
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230214, '2023-02-14 00:00:00.000', 14, 'Tuesday', 'W07', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-15 00:00:00.000', 'Tuesday', 28, 20220215
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230215, '2023-02-15 00:00:00.000', 15, 'Wednesday', 'W07', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-16 00:00:00.000', 'Wednesday', 28, 20220216
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230216, '2023-02-16 00:00:00.000', 16, 'Thursday', 'W08', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-17 00:00:00.000', 'Thursday', 28, 20220217
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230217, '2023-02-17 00:00:00.000', 17, 'Friday', 'W08', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-18 00:00:00.000', 'Friday', 28, 20220218
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230218, '2023-02-18 00:00:00.000', 18, 'Saturday', 'W08', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-19 00:00:00.000', 'Saturday', 28, 20220219
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230219, '2023-02-19 00:00:00.000', 19, 'Sunday', 'W08', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-20 00:00:00.000', 'Sunday', 28, 20220220
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230220, '2023-02-20 00:00:00.000', 20, 'Monday', 'W08', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-21 00:00:00.000', 'Monday', 28, 20220221
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230221, '2023-02-21 00:00:00.000', 21, 'Tuesday', 'W08', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-22 00:00:00.000', 'Tuesday', 28, 20220222
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230222, '2023-02-22 00:00:00.000', 22, 'Wednesday', 'W08', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-23 00:00:00.000', 'Wednesday', 28, 20220223
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230223, '2023-02-23 00:00:00.000', 23, 'Thursday', 'W09', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-24 00:00:00.000', 'Thursday', 28, 20220224
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230224, '2023-02-24 00:00:00.000', 24, 'Friday', 'W09', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-25 00:00:00.000', 'Friday', 28, 20220225
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230225, '2023-02-25 00:00:00.000', 25, 'Saturday', 'W09', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-26 00:00:00.000', 'Saturday', 28, 20220226
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230226, '2023-02-26 00:00:00.000', 26, 'Sunday', 'W09', 'Weekend',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-27 00:00:00.000', 'Sunday', 28, 20220227
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230227, '2023-02-27 00:00:00.000', 27, 'Monday', 'W09', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-02-28 00:00:00.000', 'Monday', 28, 20220228
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230228, '2023-02-28 00:00:00.000', 28, 'Tuesday', 'W09', 'Weekday',
+        'February', '202302', 'Q1', 2023, 'Non Festive',
+        '2022-03-01 00:00:00.000', 'Tuesday', 28, 20220301
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230301, '2023-03-01 00:00:00.000', 29, 'Wednesday', 'W09', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-02 00:00:00.000', 'Wednesday', 31, 20220302
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230302, '2023-03-02 00:00:00.000', 30, 'Thursday', 'W10', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-03 00:00:00.000', 'Thursday', 31, 20220303
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230303, '2023-03-03 00:00:00.000', 31, 'Friday', 'W10', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-04 00:00:00.000', 'Friday', 31, 20220304
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230304, '2023-03-04 00:00:00.000', 1, 'Saturday', 'W10', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-05 00:00:00.000', 'Saturday', 31, 20220305
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230305, '2023-03-05 00:00:00.000', 2, 'Sunday', 'W10', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-06 00:00:00.000', 'Sunday', 31, 20220306
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230306, '2023-03-06 00:00:00.000', 3, 'Monday', 'W10', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-07 00:00:00.000', 'Monday', 31, 20220307
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230307, '2023-03-07 00:00:00.000', 4, 'Tuesday', 'W10', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-08 00:00:00.000', 'Tuesday', 31, 20220308
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230308, '2023-03-08 00:00:00.000', 5, 'Wednesday', 'W10', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-09 00:00:00.000', 'Wednesday', 31, 20220309
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230309, '2023-03-09 00:00:00.000', 6, 'Thursday', 'W11', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-10 00:00:00.000', 'Thursday', 31, 20220310
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230310, '2023-03-10 00:00:00.000', 7, 'Friday', 'W11', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-11 00:00:00.000', 'Friday', 31, 20220311
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230311, '2023-03-11 00:00:00.000', 8, 'Saturday', 'W11', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-12 00:00:00.000', 'Saturday', 31, 20220312
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230312, '2023-03-12 00:00:00.000', 9, 'Sunday', 'W11', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-13 00:00:00.000', 'Sunday', 31, 20220313
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230313, '2023-03-13 00:00:00.000', 10, 'Monday', 'W11', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Non Festive',
+        '2022-03-14 00:00:00.000', 'Monday', 31, 20220314
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230314, '2023-03-14 00:00:00.000', 11, 'Tuesday', 'W11', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-15 00:00:00.000', 'Tuesday', 31, 20220315
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230315, '2023-03-15 00:00:00.000', 12, 'Wednesday', 'W11', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-16 00:00:00.000', 'Wednesday', 31, 20220316
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230316, '2023-03-16 00:00:00.000', 13, 'Thursday', 'W12', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-17 00:00:00.000', 'Thursday', 31, 20220317
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230317, '2023-03-17 00:00:00.000', 14, 'Friday', 'W12', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-18 00:00:00.000', 'Friday', 31, 20220318
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230318, '2023-03-18 00:00:00.000', 15, 'Saturday', 'W12', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-19 00:00:00.000', 'Saturday', 31, 20220319
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230319, '2023-03-19 00:00:00.000', 16, 'Sunday', 'W12', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-20 00:00:00.000', 'Sunday', 31, 20220320
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230320, '2023-03-20 00:00:00.000', 17, 'Monday', 'W12', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-21 00:00:00.000', 'Monday', 31, 20220321
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230321, '2023-03-21 00:00:00.000', 18, 'Tuesday', 'W12', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-22 00:00:00.000', 'Tuesday', 31, 20220322
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230322, '2023-03-22 00:00:00.000', 19, 'Wednesday', 'W12', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-23 00:00:00.000', 'Wednesday', 31, 20220323
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230323, '2023-03-23 00:00:00.000', 20, 'Thursday', 'W13', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-24 00:00:00.000', 'Thursday', 31, 20220324
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230324, '2023-03-24 00:00:00.000', 21, 'Friday', 'W13', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-25 00:00:00.000', 'Friday', 31, 20220325
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230325, '2023-03-25 00:00:00.000', 22, 'Saturday', 'W13', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-26 00:00:00.000', 'Saturday', 31, 20220326
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230326, '2023-03-26 00:00:00.000', 23, 'Sunday', 'W13', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-27 00:00:00.000', 'Sunday', 31, 20220327
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230327, '2023-03-27 00:00:00.000', 24, 'Monday', 'W13', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-28 00:00:00.000', 'Monday', 31, 20220328
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230328, '2023-03-28 00:00:00.000', 25, 'Tuesday', 'W13', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-29 00:00:00.000', 'Tuesday', 31, 20220329
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230329, '2023-03-29 00:00:00.000', 26, 'Wednesday', 'W13', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-30 00:00:00.000', 'Wednesday', 31, 20220330
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230330, '2023-03-30 00:00:00.000', 27, 'Thursday', 'W14', 'Weekday',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-03-31 00:00:00.000', 'Thursday', 31, 20220331
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230331, '2023-03-31 00:00:00.000', 28, 'Friday', 'W14', 'Weekend',
+        'March', '202303', 'Q1', 2023, 'Festive',
+        '2022-04-01 00:00:00.000', 'Friday', 31, 20220401
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230401, '2023-04-01 00:00:00.000', 29, 'Saturday', 'W14', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-02 00:00:00.000', 'Saturday', 30, 20220402
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230402, '2023-04-02 00:00:00.000', 30, 'Sunday', 'W14', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-03 00:00:00.000', 'Sunday', 30, 20220403
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230403, '2023-04-03 00:00:00.000', 31, 'Monday', 'W14', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-04 00:00:00.000', 'Monday', 30, 20220404
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230404, '2023-04-04 00:00:00.000', 1, 'Tuesday', 'W14', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-05 00:00:00.000', 'Tuesday', 30, 20220405
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230405, '2023-04-05 00:00:00.000', 2, 'Wednesday', 'W14', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-06 00:00:00.000', 'Wednesday', 30, 20220406
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230406, '2023-04-06 00:00:00.000', 3, 'Thursday', 'W15', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-07 00:00:00.000', 'Thursday', 30, 20220407
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230407, '2023-04-07 00:00:00.000', 4, 'Friday', 'W15', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-08 00:00:00.000', 'Friday', 30, 20220408
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230408, '2023-04-08 00:00:00.000', 5, 'Saturday', 'W15', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-09 00:00:00.000', 'Saturday', 30, 20220409
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230409, '2023-04-09 00:00:00.000', 6, 'Sunday', 'W15', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-10 00:00:00.000', 'Sunday', 30, 20220410
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230410, '2023-04-10 00:00:00.000', 7, 'Monday', 'W15', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-11 00:00:00.000', 'Monday', 30, 20220411
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230411, '2023-04-11 00:00:00.000', 8, 'Tuesday', 'W15', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-12 00:00:00.000', 'Tuesday', 30, 20220412
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230412, '2023-04-12 00:00:00.000', 9, 'Wednesday', 'W15', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-13 00:00:00.000', 'Wednesday', 30, 20220413
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230413, '2023-04-13 00:00:00.000', 10, 'Thursday', 'W16', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-14 00:00:00.000', 'Thursday', 30, 20220414
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230414, '2023-04-14 00:00:00.000', 11, 'Friday', 'W16', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-15 00:00:00.000', 'Friday', 30, 20220415
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230415, '2023-04-15 00:00:00.000', 12, 'Saturday', 'W16', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-16 00:00:00.000', 'Saturday', 30, 20220416
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230416, '2023-04-16 00:00:00.000', 13, 'Sunday', 'W16', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-17 00:00:00.000', 'Sunday', 30, 20220417
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230417, '2023-04-17 00:00:00.000', 14, 'Monday', 'W16', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-18 00:00:00.000', 'Monday', 30, 20220418
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230418, '2023-04-18 00:00:00.000', 15, 'Tuesday', 'W16', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-19 00:00:00.000', 'Tuesday', 30, 20220419
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230419, '2023-04-19 00:00:00.000', 16, 'Wednesday', 'W16', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-20 00:00:00.000', 'Wednesday', 30, 20220420
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230420, '2023-04-20 00:00:00.000', 17, 'Thursday', 'W17', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-21 00:00:00.000', 'Thursday', 30, 20220421
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230421, '2023-04-21 00:00:00.000', 18, 'Friday', 'W17', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-22 00:00:00.000', 'Friday', 30, 20220422
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230422, '2023-04-22 00:00:00.000', 19, 'Saturday', 'W17', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-23 00:00:00.000', 'Saturday', 30, 20220423
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230423, '2023-04-23 00:00:00.000', 20, 'Sunday', 'W17', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-24 00:00:00.000', 'Sunday', 30, 20220424
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230424, '2023-04-24 00:00:00.000', 21, 'Monday', 'W17', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-25 00:00:00.000', 'Monday', 30, 20220425
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230425, '2023-04-25 00:00:00.000', 22, 'Tuesday', 'W17', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-26 00:00:00.000', 'Tuesday', 30, 20220426
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230426, '2023-04-26 00:00:00.000', 23, 'Wednesday', 'W17', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-27 00:00:00.000', 'Wednesday', 30, 20220427
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230427, '2023-04-27 00:00:00.000', 24, 'Thursday', 'W18', 'Weekday',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-28 00:00:00.000', 'Thursday', 30, 20220428
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230428, '2023-04-28 00:00:00.000', 25, 'Friday', 'W18', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Festive',
+        '2022-04-29 00:00:00.000', 'Friday', 30, 20220429
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230429, '2023-04-29 00:00:00.000', 26, 'Saturday', 'W18', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Non Festive',
+        '2022-04-30 00:00:00.000', 'Saturday', 30, 20220430
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230430, '2023-04-30 00:00:00.000', 27, 'Sunday', 'W18', 'Weekend',
+        'April', '202304', 'Q2', 2023, 'Non Festive',
+        '2022-05-01 00:00:00.000', 'Sunday', 30, 20220501
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230501, '2023-05-01 00:00:00.000', 28, 'Monday', 'W18', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-02 00:00:00.000', 'Monday', 31, 20220502
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230502, '2023-05-02 00:00:00.000', 29, 'Tuesday', 'W18', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-03 00:00:00.000', 'Tuesday', 31, 20220503
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230503, '2023-05-03 00:00:00.000', 30, 'Wednesday', 'W18', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-04 00:00:00.000', 'Wednesday', 31, 20220504
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230504, '2023-05-04 00:00:00.000', 31, 'Thursday', 'W19', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-05 00:00:00.000', 'Thursday', 31, 20220505
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230505, '2023-05-05 00:00:00.000', 1, 'Friday', 'W19', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-06 00:00:00.000', 'Friday', 31, 20220506
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230506, '2023-05-06 00:00:00.000', 2, 'Saturday', 'W19', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-07 00:00:00.000', 'Saturday', 31, 20220507
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230507, '2023-05-07 00:00:00.000', 3, 'Sunday', 'W19', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-08 00:00:00.000', 'Sunday', 31, 20220508
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230508, '2023-05-08 00:00:00.000', 4, 'Monday', 'W19', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-09 00:00:00.000', 'Monday', 31, 20220509
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230509, '2023-05-09 00:00:00.000', 5, 'Tuesday', 'W19', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-10 00:00:00.000', 'Tuesday', 31, 20220510
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230510, '2023-05-10 00:00:00.000', 6, 'Wednesday', 'W19', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-11 00:00:00.000', 'Wednesday', 31, 20220511
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230511, '2023-05-11 00:00:00.000', 7, 'Thursday', 'W20', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-12 00:00:00.000', 'Thursday', 31, 20220512
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230512, '2023-05-12 00:00:00.000', 8, 'Friday', 'W20', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-13 00:00:00.000', 'Friday', 31, 20220513
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230513, '2023-05-13 00:00:00.000', 9, 'Saturday', 'W20', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-14 00:00:00.000', 'Saturday', 31, 20220514
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230514, '2023-05-14 00:00:00.000', 10, 'Sunday', 'W20', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-15 00:00:00.000', 'Sunday', 31, 20220515
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230515, '2023-05-15 00:00:00.000', 11, 'Monday', 'W20', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-16 00:00:00.000', 'Monday', 31, 20220516
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230516, '2023-05-16 00:00:00.000', 12, 'Tuesday', 'W20', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-17 00:00:00.000', 'Tuesday', 31, 20220517
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230517, '2023-05-17 00:00:00.000', 13, 'Wednesday', 'W20', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-18 00:00:00.000', 'Wednesday', 31, 20220518
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230518, '2023-05-18 00:00:00.000', 14, 'Thursday', 'W21', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-19 00:00:00.000', 'Thursday', 31, 20220519
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230519, '2023-05-19 00:00:00.000', 15, 'Friday', 'W21', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-20 00:00:00.000', 'Friday', 31, 20220520
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230520, '2023-05-20 00:00:00.000', 16, 'Saturday', 'W21', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-21 00:00:00.000', 'Saturday', 31, 20220521
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230521, '2023-05-21 00:00:00.000', 17, 'Sunday', 'W21', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-22 00:00:00.000', 'Sunday', 31, 20220522
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230522, '2023-05-22 00:00:00.000', 18, 'Monday', 'W21', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-23 00:00:00.000', 'Monday', 31, 20220523
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230523, '2023-05-23 00:00:00.000', 19, 'Tuesday', 'W21', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-24 00:00:00.000', 'Tuesday', 31, 20220524
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230524, '2023-05-24 00:00:00.000', 20, 'Wednesday', 'W21', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-25 00:00:00.000', 'Wednesday', 31, 20220525
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230525, '2023-05-25 00:00:00.000', 21, 'Thursday', 'W22', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-26 00:00:00.000', 'Thursday', 31, 20220526
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230526, '2023-05-26 00:00:00.000', 22, 'Friday', 'W22', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-27 00:00:00.000', 'Friday', 31, 20220527
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230527, '2023-05-27 00:00:00.000', 23, 'Saturday', 'W22', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-28 00:00:00.000', 'Saturday', 31, 20220528
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230528, '2023-05-28 00:00:00.000', 24, 'Sunday', 'W22', 'Weekend',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-29 00:00:00.000', 'Sunday', 31, 20220529
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230529, '2023-05-29 00:00:00.000', 25, 'Monday', 'W22', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-30 00:00:00.000', 'Monday', 31, 20220530
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230530, '2023-05-30 00:00:00.000', 26, 'Tuesday', 'W22', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-05-31 00:00:00.000', 'Tuesday', 31, 20220531
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230531, '2023-05-31 00:00:00.000', 27, 'Wednesday', 'W22', 'Weekday',
+        'May', '202305', 'Q2', 2023, 'Non Festive',
+        '2022-06-01 00:00:00.000', 'Wednesday', 31, 20220601
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230601, '2023-06-01 00:00:00.000', 28, 'Thursday', 'W23', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-02 00:00:00.000', 'Thursday', 30, 20220602
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230602, '2023-06-02 00:00:00.000', 29, 'Friday', 'W23', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-03 00:00:00.000', 'Friday', 30, 20220603
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230603, '2023-06-03 00:00:00.000', 30, 'Saturday', 'W23', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-04 00:00:00.000', 'Saturday', 30, 20220604
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230604, '2023-06-04 00:00:00.000', 31, 'Sunday', 'W23', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-05 00:00:00.000', 'Sunday', 30, 20220605
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230605, '2023-06-05 00:00:00.000', 1, 'Monday', 'W23', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-06 00:00:00.000', 'Monday', 30, 20220606
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230606, '2023-06-06 00:00:00.000', 2, 'Tuesday', 'W23', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-07 00:00:00.000', 'Tuesday', 30, 20220607
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230607, '2023-06-07 00:00:00.000', 3, 'Wednesday', 'W23', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-08 00:00:00.000', 'Wednesday', 30, 20220608
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230608, '2023-06-08 00:00:00.000', 4, 'Thursday', 'W24', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-09 00:00:00.000', 'Thursday', 30, 20220609
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230609, '2023-06-09 00:00:00.000', 5, 'Friday', 'W24', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-10 00:00:00.000', 'Friday', 30, 20220610
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230610, '2023-06-10 00:00:00.000', 6, 'Saturday', 'W24', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-11 00:00:00.000', 'Saturday', 30, 20220611
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230611, '2023-06-11 00:00:00.000', 7, 'Sunday', 'W24', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-12 00:00:00.000', 'Sunday', 30, 20220612
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230612, '2023-06-12 00:00:00.000', 8, 'Monday', 'W24', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-13 00:00:00.000', 'Monday', 30, 20220613
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230613, '2023-06-13 00:00:00.000', 9, 'Tuesday', 'W24', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-14 00:00:00.000', 'Tuesday', 30, 20220614
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230614, '2023-06-14 00:00:00.000', 10, 'Wednesday', 'W24', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-15 00:00:00.000', 'Wednesday', 30, 20220615
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230615, '2023-06-15 00:00:00.000', 11, 'Thursday', 'W25', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-16 00:00:00.000', 'Thursday', 30, 20220616
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230616, '2023-06-16 00:00:00.000', 12, 'Friday', 'W25', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-17 00:00:00.000', 'Friday', 30, 20220617
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230617, '2023-06-17 00:00:00.000', 13, 'Saturday', 'W25', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-18 00:00:00.000', 'Saturday', 30, 20220618
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230618, '2023-06-18 00:00:00.000', 14, 'Sunday', 'W25', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-19 00:00:00.000', 'Sunday', 30, 20220619
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230619, '2023-06-19 00:00:00.000', 15, 'Monday', 'W25', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-20 00:00:00.000', 'Monday', 30, 20220620
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230620, '2023-06-20 00:00:00.000', 16, 'Tuesday', 'W25', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-21 00:00:00.000', 'Tuesday', 30, 20220621
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230621, '2023-06-21 00:00:00.000', 17, 'Wednesday', 'W25', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-22 00:00:00.000', 'Wednesday', 30, 20220622
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230622, '2023-06-22 00:00:00.000', 18, 'Thursday', 'W26', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-23 00:00:00.000', 'Thursday', 30, 20220623
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230623, '2023-06-23 00:00:00.000', 19, 'Friday', 'W26', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-24 00:00:00.000', 'Friday', 30, 20220624
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230624, '2023-06-24 00:00:00.000', 20, 'Saturday', 'W26', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-25 00:00:00.000', 'Saturday', 30, 20220625
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230625, '2023-06-25 00:00:00.000', 21, 'Sunday', 'W26', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-26 00:00:00.000', 'Sunday', 30, 20220626
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230626, '2023-06-26 00:00:00.000', 22, 'Monday', 'W26', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-27 00:00:00.000', 'Monday', 30, 20220627
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230627, '2023-06-27 00:00:00.000', 23, 'Tuesday', 'W26', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-28 00:00:00.000', 'Tuesday', 30, 20220628
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230628, '2023-06-28 00:00:00.000', 24, 'Wednesday', 'W26', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-29 00:00:00.000', 'Wednesday', 30, 20220629
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230629, '2023-06-29 00:00:00.000', 25, 'Thursday', 'W27', 'Weekday',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-06-30 00:00:00.000', 'Thursday', 30, 20220630
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230630, '2023-06-30 00:00:00.000', 26, 'Friday', 'W27', 'Weekend',
+        'June', '202306', 'Q2', 2023, 'Non Festive',
+        '2022-07-01 00:00:00.000', 'Friday', 30, 20220701
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230701, '2023-07-01 00:00:00.000', 27, 'Saturday', 'W27', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-02 00:00:00.000', 'Saturday', 31, 20220702
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230702, '2023-07-02 00:00:00.000', 28, 'Sunday', 'W27', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-03 00:00:00.000', 'Sunday', 31, 20220703
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230703, '2023-07-03 00:00:00.000', 29, 'Monday', 'W27', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-04 00:00:00.000', 'Monday', 31, 20220704
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230704, '2023-07-04 00:00:00.000', 30, 'Tuesday', 'W27', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-05 00:00:00.000', 'Tuesday', 31, 20220705
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230705, '2023-07-05 00:00:00.000', 31, 'Wednesday', 'W27', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-06 00:00:00.000', 'Wednesday', 31, 20220706
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230706, '2023-07-06 00:00:00.000', 1, 'Thursday', 'W28', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-07 00:00:00.000', 'Thursday', 31, 20220707
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230707, '2023-07-07 00:00:00.000', 2, 'Friday', 'W28', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-08 00:00:00.000', 'Friday', 31, 20220708
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230708, '2023-07-08 00:00:00.000', 3, 'Saturday', 'W28', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-09 00:00:00.000', 'Saturday', 31, 20220709
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230709, '2023-07-09 00:00:00.000', 4, 'Sunday', 'W28', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-10 00:00:00.000', 'Sunday', 31, 20220710
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230710, '2023-07-10 00:00:00.000', 5, 'Monday', 'W28', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-11 00:00:00.000', 'Monday', 31, 20220711
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230711, '2023-07-11 00:00:00.000', 6, 'Tuesday', 'W28', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-12 00:00:00.000', 'Tuesday', 31, 20220712
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230712, '2023-07-12 00:00:00.000', 7, 'Wednesday', 'W28', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-13 00:00:00.000', 'Wednesday', 31, 20220713
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230713, '2023-07-13 00:00:00.000', 8, 'Thursday', 'W29', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-14 00:00:00.000', 'Thursday', 31, 20220714
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230714, '2023-07-14 00:00:00.000', 9, 'Friday', 'W29', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-15 00:00:00.000', 'Friday', 31, 20220715
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230715, '2023-07-15 00:00:00.000', 10, 'Saturday', 'W29', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-16 00:00:00.000', 'Saturday', 31, 20220716
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230716, '2023-07-16 00:00:00.000', 11, 'Sunday', 'W29', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-17 00:00:00.000', 'Sunday', 31, 20220717
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230717, '2023-07-17 00:00:00.000', 12, 'Monday', 'W29', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-18 00:00:00.000', 'Monday', 31, 20220718
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230718, '2023-07-18 00:00:00.000', 13, 'Tuesday', 'W29', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-19 00:00:00.000', 'Tuesday', 31, 20220719
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230719, '2023-07-19 00:00:00.000', 14, 'Wednesday', 'W29', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-20 00:00:00.000', 'Wednesday', 31, 20220720
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230720, '2023-07-20 00:00:00.000', 15, 'Thursday', 'W30', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-21 00:00:00.000', 'Thursday', 31, 20220721
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230721, '2023-07-21 00:00:00.000', 16, 'Friday', 'W30', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-22 00:00:00.000', 'Friday', 31, 20220722
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230722, '2023-07-22 00:00:00.000', 17, 'Saturday', 'W30', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-23 00:00:00.000', 'Saturday', 31, 20220723
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230723, '2023-07-23 00:00:00.000', 18, 'Sunday', 'W30', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-24 00:00:00.000', 'Sunday', 31, 20220724
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230724, '2023-07-24 00:00:00.000', 19, 'Monday', 'W30', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-25 00:00:00.000', 'Monday', 31, 20220725
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230725, '2023-07-25 00:00:00.000', 20, 'Tuesday', 'W30', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-26 00:00:00.000', 'Tuesday', 31, 20220726
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230726, '2023-07-26 00:00:00.000', 21, 'Wednesday', 'W30', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-27 00:00:00.000', 'Wednesday', 31, 20220727
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230727, '2023-07-27 00:00:00.000', 22, 'Thursday', 'W31', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-28 00:00:00.000', 'Thursday', 31, 20220728
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230728, '2023-07-28 00:00:00.000', 23, 'Friday', 'W31', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-29 00:00:00.000', 'Friday', 31, 20220729
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230729, '2023-07-29 00:00:00.000', 24, 'Saturday', 'W31', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-30 00:00:00.000', 'Saturday', 31, 20220730
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230730, '2023-07-30 00:00:00.000', 25, 'Sunday', 'W31', 'Weekend',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-07-31 00:00:00.000', 'Sunday', 31, 20220731
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230731, '2023-07-31 00:00:00.000', 26, 'Monday', 'W31', 'Weekday',
+        'July', '202307', 'Q3', 2023, 'Non Festive',
+        '2022-08-01 00:00:00.000', 'Monday', 31, 20220801
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230801, '2023-08-01 00:00:00.000', 27, 'Tuesday', 'W31', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-02 00:00:00.000', 'Tuesday', 31, 20220802
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230802, '2023-08-02 00:00:00.000', 28, 'Wednesday', 'W31', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-03 00:00:00.000', 'Wednesday', 31, 20220803
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230803, '2023-08-03 00:00:00.000', 29, 'Thursday', 'W32', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-04 00:00:00.000', 'Thursday', 31, 20220804
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230804, '2023-08-04 00:00:00.000', 30, 'Friday', 'W32', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-05 00:00:00.000', 'Friday', 31, 20220805
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230805, '2023-08-05 00:00:00.000', 31, 'Saturday', 'W32', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-06 00:00:00.000', 'Saturday', 31, 20220806
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230806, '2023-08-06 00:00:00.000', 1, 'Sunday', 'W32', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-07 00:00:00.000', 'Sunday', 31, 20220807
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230807, '2023-08-07 00:00:00.000', 2, 'Monday', 'W32', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-08 00:00:00.000', 'Monday', 31, 20220808
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230808, '2023-08-08 00:00:00.000', 3, 'Tuesday', 'W32', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-09 00:00:00.000', 'Tuesday', 31, 20220809
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230809, '2023-08-09 00:00:00.000', 4, 'Wednesday', 'W32', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-10 00:00:00.000', 'Wednesday', 31, 20220810
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230810, '2023-08-10 00:00:00.000', 5, 'Thursday', 'W33', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-11 00:00:00.000', 'Thursday', 31, 20220811
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230811, '2023-08-11 00:00:00.000', 6, 'Friday', 'W33', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-12 00:00:00.000', 'Friday', 31, 20220812
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230812, '2023-08-12 00:00:00.000', 7, 'Saturday', 'W33', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-13 00:00:00.000', 'Saturday', 31, 20220813
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230813, '2023-08-13 00:00:00.000', 8, 'Sunday', 'W33', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-14 00:00:00.000', 'Sunday', 31, 20220814
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230814, '2023-08-14 00:00:00.000', 9, 'Monday', 'W33', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-15 00:00:00.000', 'Monday', 31, 20220815
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230815, '2023-08-15 00:00:00.000', 10, 'Tuesday', 'W33', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-16 00:00:00.000', 'Tuesday', 31, 20220816
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230816, '2023-08-16 00:00:00.000', 11, 'Wednesday', 'W33', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-17 00:00:00.000', 'Wednesday', 31, 20220817
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230817, '2023-08-17 00:00:00.000', 12, 'Thursday', 'W34', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-18 00:00:00.000', 'Thursday', 31, 20220818
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230818, '2023-08-18 00:00:00.000', 13, 'Friday', 'W34', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-19 00:00:00.000', 'Friday', 31, 20220819
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230819, '2023-08-19 00:00:00.000', 14, 'Saturday', 'W34', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-20 00:00:00.000', 'Saturday', 31, 20220820
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230820, '2023-08-20 00:00:00.000', 15, 'Sunday', 'W34', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-21 00:00:00.000', 'Sunday', 31, 20220821
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230821, '2023-08-21 00:00:00.000', 16, 'Monday', 'W34', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-22 00:00:00.000', 'Monday', 31, 20220822
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230822, '2023-08-22 00:00:00.000', 17, 'Tuesday', 'W34', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-23 00:00:00.000', 'Tuesday', 31, 20220823
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230823, '2023-08-23 00:00:00.000', 18, 'Wednesday', 'W34', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-24 00:00:00.000', 'Wednesday', 31, 20220824
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230824, '2023-08-24 00:00:00.000', 19, 'Thursday', 'W35', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-25 00:00:00.000', 'Thursday', 31, 20220825
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230825, '2023-08-25 00:00:00.000', 20, 'Friday', 'W35', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-26 00:00:00.000', 'Friday', 31, 20220826
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230826, '2023-08-26 00:00:00.000', 21, 'Saturday', 'W35', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-27 00:00:00.000', 'Saturday', 31, 20220827
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230827, '2023-08-27 00:00:00.000', 22, 'Sunday', 'W35', 'Weekend',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-28 00:00:00.000', 'Sunday', 31, 20220828
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230828, '2023-08-28 00:00:00.000', 23, 'Monday', 'W35', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-29 00:00:00.000', 'Monday', 31, 20220829
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230829, '2023-08-29 00:00:00.000', 24, 'Tuesday', 'W35', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-30 00:00:00.000', 'Tuesday', 31, 20220830
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230830, '2023-08-30 00:00:00.000', 25, 'Wednesday', 'W35', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-08-31 00:00:00.000', 'Wednesday', 31, 20220831
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230831, '2023-08-31 00:00:00.000', 26, 'Thursday', 'W36', 'Weekday',
+        'August', '202308', 'Q3', 2023, 'Non Festive',
+        '2022-09-01 00:00:00.000', 'Thursday', 31, 20220901
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230901, '2023-09-01 00:00:00.000', 27, 'Friday', 'W36', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-02 00:00:00.000', 'Friday', 30, 20220902
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230902, '2023-09-02 00:00:00.000', 28, 'Saturday', 'W36', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-03 00:00:00.000', 'Saturday', 30, 20220903
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230903, '2023-09-03 00:00:00.000', 29, 'Sunday', 'W36', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-04 00:00:00.000', 'Sunday', 30, 20220904
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230904, '2023-09-04 00:00:00.000', 30, 'Monday', 'W36', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-05 00:00:00.000', 'Monday', 30, 20220905
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230905, '2023-09-05 00:00:00.000', 31, 'Tuesday', 'W36', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-06 00:00:00.000', 'Tuesday', 30, 20220906
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230906, '2023-09-06 00:00:00.000', 1, 'Wednesday', 'W36', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-07 00:00:00.000', 'Wednesday', 30, 20220907
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230907, '2023-09-07 00:00:00.000', 2, 'Thursday', 'W37', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-08 00:00:00.000', 'Thursday', 30, 20220908
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230908, '2023-09-08 00:00:00.000', 3, 'Friday', 'W37', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-09 00:00:00.000', 'Friday', 30, 20220909
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230909, '2023-09-09 00:00:00.000', 4, 'Saturday', 'W37', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-10 00:00:00.000', 'Saturday', 30, 20220910
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230910, '2023-09-10 00:00:00.000', 5, 'Sunday', 'W37', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-11 00:00:00.000', 'Sunday', 30, 20220911
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230911, '2023-09-11 00:00:00.000', 6, 'Monday', 'W37', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-12 00:00:00.000', 'Monday', 30, 20220912
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230912, '2023-09-12 00:00:00.000', 7, 'Tuesday', 'W37', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-13 00:00:00.000', 'Tuesday', 30, 20220913
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230913, '2023-09-13 00:00:00.000', 8, 'Wednesday', 'W37', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-14 00:00:00.000', 'Wednesday', 30, 20220914
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230914, '2023-09-14 00:00:00.000', 9, 'Thursday', 'W38', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-15 00:00:00.000', 'Thursday', 30, 20220915
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230915, '2023-09-15 00:00:00.000', 10, 'Friday', 'W38', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-16 00:00:00.000', 'Friday', 30, 20220916
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230916, '2023-09-16 00:00:00.000', 11, 'Saturday', 'W38', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-17 00:00:00.000', 'Saturday', 30, 20220917
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230917, '2023-09-17 00:00:00.000', 12, 'Sunday', 'W38', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-18 00:00:00.000', 'Sunday', 30, 20220918
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230918, '2023-09-18 00:00:00.000', 13, 'Monday', 'W38', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-19 00:00:00.000', 'Monday', 30, 20220919
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230919, '2023-09-19 00:00:00.000', 14, 'Tuesday', 'W38', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-20 00:00:00.000', 'Tuesday', 30, 20220920
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230920, '2023-09-20 00:00:00.000', 15, 'Wednesday', 'W38', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-21 00:00:00.000', 'Wednesday', 30, 20220921
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230921, '2023-09-21 00:00:00.000', 16, 'Thursday', 'W39', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-22 00:00:00.000', 'Thursday', 30, 20220922
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230922, '2023-09-22 00:00:00.000', 17, 'Friday', 'W39', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-23 00:00:00.000', 'Friday', 30, 20220923
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230923, '2023-09-23 00:00:00.000', 18, 'Saturday', 'W39', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-24 00:00:00.000', 'Saturday', 30, 20220924
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230924, '2023-09-24 00:00:00.000', 19, 'Sunday', 'W39', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-25 00:00:00.000', 'Sunday', 30, 20220925
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230925, '2023-09-25 00:00:00.000', 20, 'Monday', 'W39', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-26 00:00:00.000', 'Monday', 30, 20220926
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230926, '2023-09-26 00:00:00.000', 21, 'Tuesday', 'W39', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-27 00:00:00.000', 'Tuesday', 30, 20220927
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230927, '2023-09-27 00:00:00.000', 22, 'Wednesday', 'W39', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-28 00:00:00.000', 'Wednesday', 30, 20220928
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230928, '2023-09-28 00:00:00.000', 23, 'Thursday', 'W40', 'Weekday',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-29 00:00:00.000', 'Thursday', 30, 20220929
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230929, '2023-09-29 00:00:00.000', 24, 'Friday', 'W40', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-09-30 00:00:00.000', 'Friday', 30, 20220930
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20230930, '2023-09-30 00:00:00.000', 25, 'Saturday', 'W40', 'Weekend',
+        'September', '202309', 'Q3', 2023, 'Non Festive',
+        '2022-10-01 00:00:00.000', 'Saturday', 30, 20221001
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231001, '2023-10-01 00:00:00.000', 26, 'Sunday', 'W40', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-02 00:00:00.000', 'Sunday', 31, 20221002
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231002, '2023-10-02 00:00:00.000', 27, 'Monday', 'W40', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-03 00:00:00.000', 'Monday', 31, 20221003
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231003, '2023-10-03 00:00:00.000', 28, 'Tuesday', 'W40', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-04 00:00:00.000', 'Tuesday', 31, 20221004
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231004, '2023-10-04 00:00:00.000', 29, 'Wednesday', 'W40', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-05 00:00:00.000', 'Wednesday', 31, 20221005
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231005, '2023-10-05 00:00:00.000', 30, 'Thursday', 'W41', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-06 00:00:00.000', 'Thursday', 31, 20221006
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231006, '2023-10-06 00:00:00.000', 31, 'Friday', 'W41', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-07 00:00:00.000', 'Friday', 31, 20221007
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231007, '2023-10-07 00:00:00.000', 1, 'Saturday', 'W41', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-08 00:00:00.000', 'Saturday', 31, 20221008
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231008, '2023-10-08 00:00:00.000', 2, 'Sunday', 'W41', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-09 00:00:00.000', 'Sunday', 31, 20221009
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231009, '2023-10-09 00:00:00.000', 3, 'Monday', 'W41', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-10 00:00:00.000', 'Monday', 31, 20221010
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231010, '2023-10-10 00:00:00.000', 4, 'Tuesday', 'W41', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-11 00:00:00.000', 'Tuesday', 31, 20221011
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231011, '2023-10-11 00:00:00.000', 5, 'Wednesday', 'W41', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-12 00:00:00.000', 'Wednesday', 31, 20221012
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231012, '2023-10-12 00:00:00.000', 6, 'Thursday', 'W42', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-13 00:00:00.000', 'Thursday', 31, 20221013
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231013, '2023-10-13 00:00:00.000', 7, 'Friday', 'W42', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-14 00:00:00.000', 'Friday', 31, 20221014
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231014, '2023-10-14 00:00:00.000', 8, 'Saturday', 'W42', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-15 00:00:00.000', 'Saturday', 31, 20221015
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231015, '2023-10-15 00:00:00.000', 9, 'Sunday', 'W42', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-16 00:00:00.000', 'Sunday', 31, 20221016
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231016, '2023-10-16 00:00:00.000', 10, 'Monday', 'W42', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-17 00:00:00.000', 'Monday', 31, 20221017
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231017, '2023-10-17 00:00:00.000', 11, 'Tuesday', 'W42', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-18 00:00:00.000', 'Tuesday', 31, 20221018
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231018, '2023-10-18 00:00:00.000', 12, 'Wednesday', 'W42', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-19 00:00:00.000', 'Wednesday', 31, 20221019
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231019, '2023-10-19 00:00:00.000', 13, 'Thursday', 'W43', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-20 00:00:00.000', 'Thursday', 31, 20221020
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231020, '2023-10-20 00:00:00.000', 14, 'Friday', 'W43', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-21 00:00:00.000', 'Friday', 31, 20221021
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231021, '2023-10-21 00:00:00.000', 15, 'Saturday', 'W43', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-22 00:00:00.000', 'Saturday', 31, 20221022
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231022, '2023-10-22 00:00:00.000', 16, 'Sunday', 'W43', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-23 00:00:00.000', 'Sunday', 31, 20221023
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231023, '2023-10-23 00:00:00.000', 17, 'Monday', 'W43', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-24 00:00:00.000', 'Monday', 31, 20221024
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231024, '2023-10-24 00:00:00.000', 18, 'Tuesday', 'W43', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-25 00:00:00.000', 'Tuesday', 31, 20221025
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231025, '2023-10-25 00:00:00.000', 19, 'Wednesday', 'W43', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-26 00:00:00.000', 'Wednesday', 31, 20221026
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231026, '2023-10-26 00:00:00.000', 20, 'Thursday', 'W44', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-27 00:00:00.000', 'Thursday', 31, 20221027
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231027, '2023-10-27 00:00:00.000', 21, 'Friday', 'W44', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-28 00:00:00.000', 'Friday', 31, 20221028
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231028, '2023-10-28 00:00:00.000', 22, 'Saturday', 'W44', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-29 00:00:00.000', 'Saturday', 31, 20221029
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231029, '2023-10-29 00:00:00.000', 23, 'Sunday', 'W44', 'Weekend',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-30 00:00:00.000', 'Sunday', 31, 20221030
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231030, '2023-10-30 00:00:00.000', 24, 'Monday', 'W44', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-10-31 00:00:00.000', 'Monday', 31, 20221031
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231031, '2023-10-31 00:00:00.000', 25, 'Tuesday', 'W44', 'Weekday',
+        'October', '202310', 'Q4', 2023, 'Non Festive',
+        '2022-11-01 00:00:00.000', 'Tuesday', 31, 20221101
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231101, '2023-11-01 00:00:00.000', 26, 'Wednesday', 'W44', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-02 00:00:00.000', 'Wednesday', 30, 20221102
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231102, '2023-11-02 00:00:00.000', 27, 'Thursday', 'W45', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-03 00:00:00.000', 'Thursday', 30, 20221103
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231103, '2023-11-03 00:00:00.000', 28, 'Friday', 'W45', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-04 00:00:00.000', 'Friday', 30, 20221104
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231104, '2023-11-04 00:00:00.000', 29, 'Saturday', 'W45', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-05 00:00:00.000', 'Saturday', 30, 20221105
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231105, '2023-11-05 00:00:00.000', 30, 'Sunday', 'W45', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-06 00:00:00.000', 'Sunday', 30, 20221106
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231106, '2023-11-06 00:00:00.000', 31, 'Monday', 'W45', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-07 00:00:00.000', 'Monday', 30, 20221107
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231107, '2023-11-07 00:00:00.000', 1, 'Tuesday', 'W45', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-08 00:00:00.000', 'Tuesday', 30, 20221108
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231108, '2023-11-08 00:00:00.000', 2, 'Wednesday', 'W45', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-09 00:00:00.000', 'Wednesday', 30, 20221109
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231109, '2023-11-09 00:00:00.000', 3, 'Thursday', 'W46', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-10 00:00:00.000', 'Thursday', 30, 20221110
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231110, '2023-11-10 00:00:00.000', 4, 'Friday', 'W46', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-11 00:00:00.000', 'Friday', 30, 20221111
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231111, '2023-11-11 00:00:00.000', 5, 'Saturday', 'W46', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-12 00:00:00.000', 'Saturday', 30, 20221112
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231112, '2023-11-12 00:00:00.000', 6, 'Sunday', 'W46', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-13 00:00:00.000', 'Sunday', 30, 20221113
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231113, '2023-11-13 00:00:00.000', 7, 'Monday', 'W46', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-14 00:00:00.000', 'Monday', 30, 20221114
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231114, '2023-11-14 00:00:00.000', 8, 'Tuesday', 'W46', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-15 00:00:00.000', 'Tuesday', 30, 20221115
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231115, '2023-11-15 00:00:00.000', 9, 'Wednesday', 'W46', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-16 00:00:00.000', 'Wednesday', 30, 20221116
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231116, '2023-11-16 00:00:00.000', 10, 'Thursday', 'W47', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-17 00:00:00.000', 'Thursday', 30, 20221117
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231117, '2023-11-17 00:00:00.000', 11, 'Friday', 'W47', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-18 00:00:00.000', 'Friday', 30, 20221118
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231118, '2023-11-18 00:00:00.000', 12, 'Saturday', 'W47', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-19 00:00:00.000', 'Saturday', 30, 20221119
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231119, '2023-11-19 00:00:00.000', 13, 'Sunday', 'W47', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-20 00:00:00.000', 'Sunday', 30, 20221120
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231120, '2023-11-20 00:00:00.000', 14, 'Monday', 'W47', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-21 00:00:00.000', 'Monday', 30, 20221121
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231121, '2023-11-21 00:00:00.000', 15, 'Tuesday', 'W47', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-22 00:00:00.000', 'Tuesday', 30, 20221122
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231122, '2023-11-22 00:00:00.000', 16, 'Wednesday', 'W47', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-23 00:00:00.000', 'Wednesday', 30, 20221123
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231123, '2023-11-23 00:00:00.000', 17, 'Thursday', 'W48', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-24 00:00:00.000', 'Thursday', 30, 20221124
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231124, '2023-11-24 00:00:00.000', 18, 'Friday', 'W48', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-25 00:00:00.000', 'Friday', 30, 20221125
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231125, '2023-11-25 00:00:00.000', 19, 'Saturday', 'W48', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-26 00:00:00.000', 'Saturday', 30, 20221126
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231126, '2023-11-26 00:00:00.000', 20, 'Sunday', 'W48', 'Weekend',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-27 00:00:00.000', 'Sunday', 30, 20221127
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231127, '2023-11-27 00:00:00.000', 21, 'Monday', 'W48', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-28 00:00:00.000', 'Monday', 30, 20221128
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231128, '2023-11-28 00:00:00.000', 22, 'Tuesday', 'W48', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-29 00:00:00.000', 'Tuesday', 30, 20221129
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231129, '2023-11-29 00:00:00.000', 23, 'Wednesday', 'W48', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-11-30 00:00:00.000', 'Wednesday', 30, 20221130
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231130, '2023-11-30 00:00:00.000', 24, 'Thursday', 'W49', 'Weekday',
+        'November', '202311', 'Q4', 2023, 'Non Festive',
+        '2022-12-01 00:00:00.000', 'Thursday', 30, 20221201
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231201, '2023-12-01 00:00:00.000', 25, 'Friday', 'W49', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-02 00:00:00.000', 'Friday', 31, 20221202
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231202, '2023-12-02 00:00:00.000', 26, 'Saturday', 'W49', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-03 00:00:00.000', 'Saturday', 31, 20221203
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231203, '2023-12-03 00:00:00.000', 27, 'Sunday', 'W49', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-04 00:00:00.000', 'Sunday', 31, 20221204
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231204, '2023-12-04 00:00:00.000', 28, 'Monday', 'W49', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-05 00:00:00.000', 'Monday', 31, 20221205
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231205, '2023-12-05 00:00:00.000', 29, 'Tuesday', 'W49', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-06 00:00:00.000', 'Tuesday', 31, 20221206
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231206, '2023-12-06 00:00:00.000', 30, 'Wednesday', 'W49', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-07 00:00:00.000', 'Wednesday', 31, 20221207
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231207, '2023-12-07 00:00:00.000', 31, 'Thursday', 'W50', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-08 00:00:00.000', 'Thursday', 31, 20221208
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231208, '2023-12-08 00:00:00.000', 1, 'Friday', 'W50', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-09 00:00:00.000', 'Friday', 31, 20221209
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231209, '2023-12-09 00:00:00.000', 2, 'Saturday', 'W50', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-10 00:00:00.000', 'Saturday', 31, 20221210
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231210, '2023-12-10 00:00:00.000', 3, 'Sunday', 'W50', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-11 00:00:00.000', 'Sunday', 31, 20221211
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231211, '2023-12-11 00:00:00.000', 4, 'Monday', 'W50', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-12 00:00:00.000', 'Monday', 31, 20221212
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231212, '2023-12-12 00:00:00.000', 5, 'Tuesday', 'W50', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-13 00:00:00.000', 'Tuesday', 31, 20221213
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231213, '2023-12-13 00:00:00.000', 6, 'Wednesday', 'W50', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-14 00:00:00.000', 'Wednesday', 31, 20221214
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231214, '2023-12-14 00:00:00.000', 7, 'Thursday', 'W51', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-15 00:00:00.000', 'Thursday', 31, 20221215
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231215, '2023-12-15 00:00:00.000', 8, 'Friday', 'W51', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-16 00:00:00.000', 'Friday', 31, 20221216
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231216, '2023-12-16 00:00:00.000', 9, 'Saturday', 'W51', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-17 00:00:00.000', 'Saturday', 31, 20221217
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231217, '2023-12-17 00:00:00.000', 10, 'Sunday', 'W51', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-18 00:00:00.000', 'Sunday', 31, 20221218
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231218, '2023-12-18 00:00:00.000', 11, 'Monday', 'W51', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-19 00:00:00.000', 'Monday', 31, 20221219
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231219, '2023-12-19 00:00:00.000', 12, 'Tuesday', 'W51', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-20 00:00:00.000', 'Tuesday', 31, 20221220
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231220, '2023-12-20 00:00:00.000', 13, 'Wednesday', 'W51', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-21 00:00:00.000', 'Wednesday', 31, 20221221
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231221, '2023-12-21 00:00:00.000', 14, 'Thursday', 'W52', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-22 00:00:00.000', 'Thursday', 31, 20221222
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231222, '2023-12-22 00:00:00.000', 15, 'Friday', 'W52', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-23 00:00:00.000', 'Friday', 31, 20221223
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231223, '2023-12-23 00:00:00.000', 16, 'Saturday', 'W52', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-24 00:00:00.000', 'Saturday', 31, 20221224
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231224, '2023-12-24 00:00:00.000', 17, 'Sunday', 'W52', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-25 00:00:00.000', 'Sunday', 31, 20221225
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231225, '2023-12-25 00:00:00.000', 18, 'Monday', 'W52', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-26 00:00:00.000', 'Monday', 31, 20221226
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231226, '2023-12-26 00:00:00.000', 19, 'Tuesday', 'W52', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-27 00:00:00.000', 'Tuesday', 31, 20221227
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231227, '2023-12-27 00:00:00.000', 20, 'Wednesday', 'W52', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-28 00:00:00.000', 'Wednesday', 31, 20221228
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231228, '2023-12-28 00:00:00.000', 21, 'Thursday', 'W53', 'Weekday',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-29 00:00:00.000', 'Thursday', 31, 20221229
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231229, '2023-12-29 00:00:00.000', 22, 'Friday', 'W53', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-30 00:00:00.000', 'Friday', 31, 20221230
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231230, '2023-12-30 00:00:00.000', 23, 'Saturday', 'W53', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2022-12-31 00:00:00.000', 'Saturday', 31, 20221231
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20231231, '2023-12-31 00:00:00.000', 24, 'Sunday', 'W53', 'Weekend',
+        'December', '202312', 'Q4', 2023, 'Non Festive',
+        '2023-01-01 00:00:00.000', 'Sunday', 31, 20230101
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240101, '2024-01-01 00:00:00.000', 25, 'Monday', 'W01', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-02 00:00:00.000', 'Monday', 31, 20230102
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240102, '2024-01-02 00:00:00.000', 26, 'Tuesday', 'W01', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-03 00:00:00.000', 'Tuesday', 31, 20230103
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240103, '2024-01-03 00:00:00.000', 27, 'Wednesday', 'W01', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-04 00:00:00.000', 'Wednesday', 31, 20230104
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240104, '2024-01-04 00:00:00.000', 28, 'Thursday', 'W02', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-05 00:00:00.000', 'Thursday', 31, 20230105
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240105, '2024-01-05 00:00:00.000', 29, 'Friday', 'W02', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-06 00:00:00.000', 'Friday', 31, 20230106
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240106, '2024-01-06 00:00:00.000', 30, 'Saturday', 'W02', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-07 00:00:00.000', 'Saturday', 31, 20230107
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240107, '2024-01-07 00:00:00.000', 31, 'Sunday', 'W02', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-08 00:00:00.000', 'Sunday', 31, 20230108
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240108, '2024-01-08 00:00:00.000', 1, 'Monday', 'W02', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-09 00:00:00.000', 'Monday', 31, 20230109
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240109, '2024-01-09 00:00:00.000', 2, 'Tuesday', 'W02', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-10 00:00:00.000', 'Tuesday', 31, 20230110
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240110, '2024-01-10 00:00:00.000', 3, 'Wednesday', 'W02', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-11 00:00:00.000', 'Wednesday', 31, 20230111
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240111, '2024-01-11 00:00:00.000', 4, 'Thursday', 'W03', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-12 00:00:00.000', 'Thursday', 31, 20230112
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240112, '2024-01-12 00:00:00.000', 5, 'Friday', 'W03', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-13 00:00:00.000', 'Friday', 31, 20230113
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240113, '2024-01-13 00:00:00.000', 6, 'Saturday', 'W03', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-14 00:00:00.000', 'Saturday', 31, 20230114
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240114, '2024-01-14 00:00:00.000', 7, 'Sunday', 'W03', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-15 00:00:00.000', 'Sunday', 31, 20230115
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240115, '2024-01-15 00:00:00.000', 8, 'Monday', 'W03', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-16 00:00:00.000', 'Monday', 31, 20230116
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240116, '2024-01-16 00:00:00.000', 9, 'Tuesday', 'W03', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-17 00:00:00.000', 'Tuesday', 31, 20230117
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240117, '2024-01-17 00:00:00.000', 10, 'Wednesday', 'W03', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-18 00:00:00.000', 'Wednesday', 31, 20230118
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240118, '2024-01-18 00:00:00.000', 11, 'Thursday', 'W04', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-19 00:00:00.000', 'Thursday', 31, 20230119
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240119, '2024-01-19 00:00:00.000', 12, 'Friday', 'W04', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-20 00:00:00.000', 'Friday', 31, 20230120
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240120, '2024-01-20 00:00:00.000', 13, 'Saturday', 'W04', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-21 00:00:00.000', 'Saturday', 31, 20230121
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240121, '2024-01-21 00:00:00.000', 14, 'Sunday', 'W04', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-22 00:00:00.000', 'Sunday', 31, 20230122
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240122, '2024-01-22 00:00:00.000', 15, 'Monday', 'W04', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-23 00:00:00.000', 'Monday', 31, 20230123
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240123, '2024-01-23 00:00:00.000', 16, 'Tuesday', 'W04', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-24 00:00:00.000', 'Tuesday', 31, 20230124
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240124, '2024-01-24 00:00:00.000', 17, 'Wednesday', 'W04', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-25 00:00:00.000', 'Wednesday', 31, 20230125
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240125, '2024-01-25 00:00:00.000', 18, 'Thursday', 'W05', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-26 00:00:00.000', 'Thursday', 31, 20230126
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240126, '2024-01-26 00:00:00.000', 19, 'Friday', 'W05', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-27 00:00:00.000', 'Friday', 31, 20230127
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240127, '2024-01-27 00:00:00.000', 20, 'Saturday', 'W05', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-28 00:00:00.000', 'Saturday', 31, 20230128
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240128, '2024-01-28 00:00:00.000', 21, 'Sunday', 'W05', 'Weekend',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-29 00:00:00.000', 'Sunday', 31, 20230129
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240129, '2024-01-29 00:00:00.000', 22, 'Monday', 'W05', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-30 00:00:00.000', 'Monday', 31, 20230130
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240130, '2024-01-30 00:00:00.000', 23, 'Tuesday', 'W05', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-01-31 00:00:00.000', 'Tuesday', 31, 20230131
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240131, '2024-01-31 00:00:00.000', 24, 'Wednesday', 'W05', 'Weekday',
+        'January', '202401', 'Q1', 2024, 'Non Festive',
+        '2023-02-01 00:00:00.000', 'Wednesday', 31, 20230201
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240201, '2024-02-01 00:00:00.000', 25, 'Thursday', 'W06', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-02 00:00:00.000', 'Thursday', 29, 20230202
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240202, '2024-02-02 00:00:00.000', 26, 'Friday', 'W06', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-03 00:00:00.000', 'Friday', 29, 20230203
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240203, '2024-02-03 00:00:00.000', 27, 'Saturday', 'W06', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-04 00:00:00.000', 'Saturday', 29, 20230204
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240204, '2024-02-04 00:00:00.000', 28, 'Sunday', 'W06', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-05 00:00:00.000', 'Sunday', 29, 20230205
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240205, '2024-02-05 00:00:00.000', 29, 'Monday', 'W06', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-06 00:00:00.000', 'Monday', 29, 20230206
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240206, '2024-02-06 00:00:00.000', 30, 'Tuesday', 'W06', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-07 00:00:00.000', 'Tuesday', 29, 20230207
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240207, '2024-02-07 00:00:00.000', 31, 'Wednesday', 'W06', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-08 00:00:00.000', 'Wednesday', 29, 20230208
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240208, '2024-02-08 00:00:00.000', 1, 'Thursday', 'W07', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-09 00:00:00.000', 'Thursday', 29, 20230209
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240209, '2024-02-09 00:00:00.000', 2, 'Friday', 'W07', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-10 00:00:00.000', 'Friday', 29, 20230210
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240210, '2024-02-10 00:00:00.000', 3, 'Saturday', 'W07', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-11 00:00:00.000', 'Saturday', 29, 20230211
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240211, '2024-02-11 00:00:00.000', 4, 'Sunday', 'W07', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-12 00:00:00.000', 'Sunday', 29, 20230212
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240212, '2024-02-12 00:00:00.000', 5, 'Monday', 'W07', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-13 00:00:00.000', 'Monday', 29, 20230213
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240213, '2024-02-13 00:00:00.000', 6, 'Tuesday', 'W07', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-14 00:00:00.000', 'Tuesday', 29, 20230214
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240214, '2024-02-14 00:00:00.000', 7, 'Wednesday', 'W07', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-15 00:00:00.000', 'Wednesday', 29, 20230215
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240215, '2024-02-15 00:00:00.000', 8, 'Thursday', 'W08', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-16 00:00:00.000', 'Thursday', 29, 20230216
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240216, '2024-02-16 00:00:00.000', 9, 'Friday', 'W08', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-17 00:00:00.000', 'Friday', 29, 20230217
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240217, '2024-02-17 00:00:00.000', 10, 'Saturday', 'W08', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-18 00:00:00.000', 'Saturday', 29, 20230218
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240218, '2024-02-18 00:00:00.000', 11, 'Sunday', 'W08', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-19 00:00:00.000', 'Sunday', 29, 20230219
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240219, '2024-02-19 00:00:00.000', 12, 'Monday', 'W08', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-20 00:00:00.000', 'Monday', 29, 20230220
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240220, '2024-02-20 00:00:00.000', 13, 'Tuesday', 'W08', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-21 00:00:00.000', 'Tuesday', 29, 20230221
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240221, '2024-02-21 00:00:00.000', 14, 'Wednesday', 'W08', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-22 00:00:00.000', 'Wednesday', 29, 20230222
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240222, '2024-02-22 00:00:00.000', 15, 'Thursday', 'W09', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-23 00:00:00.000', 'Thursday', 29, 20230223
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240223, '2024-02-23 00:00:00.000', 16, 'Friday', 'W09', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-24 00:00:00.000', 'Friday', 29, 20230224
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240224, '2024-02-24 00:00:00.000', 17, 'Saturday', 'W09', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-25 00:00:00.000', 'Saturday', 29, 20230225
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240225, '2024-02-25 00:00:00.000', 18, 'Sunday', 'W09', 'Weekend',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-26 00:00:00.000', 'Sunday', 29, 20230226
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240226, '2024-02-26 00:00:00.000', 19, 'Monday', 'W09', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-27 00:00:00.000', 'Monday', 29, 20230227
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240227, '2024-02-27 00:00:00.000', 20, 'Tuesday', 'W09', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-02-28 00:00:00.000', 'Tuesday', 29, 20230228
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240228, '2024-02-28 00:00:00.000', 21, 'Wednesday', 'W09', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-03-01 00:00:00.000', 'Wednesday', 29, 20230301
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240229, '2024-02-29 00:00:00.000', 22, 'Thursday', 'W10', 'Weekday',
+        'February', '202402', 'Q1', 2024, 'Non Festive',
+        '2023-03-02 00:00:00.000', 'Thursday', 29, 20230302
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240301, '2024-03-01 00:00:00.000', 23, 'Friday', 'W10', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Non Festive',
+        '2023-03-03 00:00:00.000', 'Friday', 31, 20230303
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240302, '2024-03-02 00:00:00.000', 24, 'Saturday', 'W10', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Non Festive',
+        '2023-03-04 00:00:00.000', 'Saturday', 31, 20230304
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240303, '2024-03-03 00:00:00.000', 25, 'Sunday', 'W10', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-05 00:00:00.000', 'Sunday', 31, 20230305
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240304, '2024-03-04 00:00:00.000', 26, 'Monday', 'W10', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-06 00:00:00.000', 'Monday', 31, 20230306
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240305, '2024-03-05 00:00:00.000', 27, 'Tuesday', 'W10', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-07 00:00:00.000', 'Tuesday', 31, 20230307
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240306, '2024-03-06 00:00:00.000', 28, 'Wednesday', 'W10', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-08 00:00:00.000', 'Wednesday', 31, 20230308
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240307, '2024-03-07 00:00:00.000', 29, 'Thursday', 'W11', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-09 00:00:00.000', 'Thursday', 31, 20230309
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240308, '2024-03-08 00:00:00.000', 30, 'Friday', 'W11', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-10 00:00:00.000', 'Friday', 31, 20230310
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240309, '2024-03-09 00:00:00.000', 31, 'Saturday', 'W11', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-11 00:00:00.000', 'Saturday', 31, 20230311
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240310, '2024-03-10 00:00:00.000', 1, 'Sunday', 'W11', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-12 00:00:00.000', 'Sunday', 31, 20230312
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240311, '2024-03-11 00:00:00.000', 2, 'Monday', 'W11', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-13 00:00:00.000', 'Monday', 31, 20230313
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240312, '2024-03-12 00:00:00.000', 3, 'Tuesday', 'W11', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-14 00:00:00.000', 'Tuesday', 31, 20230314
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240313, '2024-03-13 00:00:00.000', 4, 'Wednesday', 'W11', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-15 00:00:00.000', 'Wednesday', 31, 20230315
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240314, '2024-03-14 00:00:00.000', 5, 'Thursday', 'W12', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-16 00:00:00.000', 'Thursday', 31, 20230316
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240315, '2024-03-15 00:00:00.000', 6, 'Friday', 'W12', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-17 00:00:00.000', 'Friday', 31, 20230317
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240316, '2024-03-16 00:00:00.000', 7, 'Saturday', 'W12', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-18 00:00:00.000', 'Saturday', 31, 20230318
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240317, '2024-03-17 00:00:00.000', 8, 'Sunday', 'W12', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-19 00:00:00.000', 'Sunday', 31, 20230319
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240318, '2024-03-18 00:00:00.000', 9, 'Monday', 'W12', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-20 00:00:00.000', 'Monday', 31, 20230320
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240319, '2024-03-19 00:00:00.000', 10, 'Tuesday', 'W12', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-21 00:00:00.000', 'Tuesday', 31, 20230321
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240320, '2024-03-20 00:00:00.000', 11, 'Wednesday', 'W12', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-22 00:00:00.000', 'Wednesday', 31, 20230322
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240321, '2024-03-21 00:00:00.000', 12, 'Thursday', 'W13', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-23 00:00:00.000', 'Thursday', 31, 20230323
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240322, '2024-03-22 00:00:00.000', 13, 'Friday', 'W13', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-24 00:00:00.000', 'Friday', 31, 20230324
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240323, '2024-03-23 00:00:00.000', 14, 'Saturday', 'W13', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-25 00:00:00.000', 'Saturday', 31, 20230325
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240324, '2024-03-24 00:00:00.000', 15, 'Sunday', 'W13', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-26 00:00:00.000', 'Sunday', 31, 20230326
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240325, '2024-03-25 00:00:00.000', 16, 'Monday', 'W13', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-27 00:00:00.000', 'Monday', 31, 20230327
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240326, '2024-03-26 00:00:00.000', 17, 'Tuesday', 'W13', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-28 00:00:00.000', 'Tuesday', 31, 20230328
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240327, '2024-03-27 00:00:00.000', 18, 'Wednesday', 'W13', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-29 00:00:00.000', 'Wednesday', 31, 20230329
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240328, '2024-03-28 00:00:00.000', 19, 'Thursday', 'W14', 'Weekday',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-30 00:00:00.000', 'Thursday', 31, 20230330
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240329, '2024-03-29 00:00:00.000', 20, 'Friday', 'W14', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-03-31 00:00:00.000', 'Friday', 31, 20230331
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240330, '2024-03-30 00:00:00.000', 21, 'Saturday', 'W14', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-04-01 00:00:00.000', 'Saturday', 31, 20230401
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240331, '2024-03-31 00:00:00.000', 22, 'Sunday', 'W14', 'Weekend',
+        'March', '202403', 'Q1', 2024, 'Festive',
+        '2023-04-02 00:00:00.000', 'Sunday', 31, 20230402
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240401, '2024-04-01 00:00:00.000', 23, 'Monday', 'W14', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-03 00:00:00.000', 'Monday', 30, 20230403
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240402, '2024-04-02 00:00:00.000', 24, 'Tuesday', 'W14', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-04 00:00:00.000', 'Tuesday', 30, 20230404
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240403, '2024-04-03 00:00:00.000', 25, 'Wednesday', 'W14', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-05 00:00:00.000', 'Wednesday', 30, 20230405
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240404, '2024-04-04 00:00:00.000', 26, 'Thursday', 'W15', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-06 00:00:00.000', 'Thursday', 30, 20230406
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240405, '2024-04-05 00:00:00.000', 27, 'Friday', 'W15', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-07 00:00:00.000', 'Friday', 30, 20230407
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240406, '2024-04-06 00:00:00.000', 28, 'Saturday', 'W15', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-08 00:00:00.000', 'Saturday', 30, 20230408
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240407, '2024-04-07 00:00:00.000', 29, 'Sunday', 'W15', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-09 00:00:00.000', 'Sunday', 30, 20230409
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240408, '2024-04-08 00:00:00.000', 30, 'Monday', 'W15', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-10 00:00:00.000', 'Monday', 30, 20230410
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240409, '2024-04-09 00:00:00.000', 1, 'Tuesday', 'W15', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-11 00:00:00.000', 'Tuesday', 30, 20230411
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240410, '2024-04-10 00:00:00.000', 2, 'Wednesday', 'W15', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-12 00:00:00.000', 'Wednesday', 30, 20230412
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240411, '2024-04-11 00:00:00.000', 3, 'Thursday', 'W16', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-13 00:00:00.000', 'Thursday', 30, 20230413
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240412, '2024-04-12 00:00:00.000', 4, 'Friday', 'W16', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-14 00:00:00.000', 'Friday', 30, 20230414
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240413, '2024-04-13 00:00:00.000', 5, 'Saturday', 'W16', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-15 00:00:00.000', 'Saturday', 30, 20230415
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240414, '2024-04-14 00:00:00.000', 6, 'Sunday', 'W16', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-16 00:00:00.000', 'Sunday', 30, 20230416
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240415, '2024-04-15 00:00:00.000', 7, 'Monday', 'W16', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-17 00:00:00.000', 'Monday', 30, 20230417
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240416, '2024-04-16 00:00:00.000', 8, 'Tuesday', 'W16', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Festive',
+        '2023-04-18 00:00:00.000', 'Tuesday', 30, 20230418
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240417, '2024-04-17 00:00:00.000', 9, 'Wednesday', 'W16', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-19 00:00:00.000', 'Wednesday', 30, 20230419
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240418, '2024-04-18 00:00:00.000', 10, 'Thursday', 'W17', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-20 00:00:00.000', 'Thursday', 30, 20230420
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240419, '2024-04-19 00:00:00.000', 11, 'Friday', 'W17', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-21 00:00:00.000', 'Friday', 30, 20230421
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240420, '2024-04-20 00:00:00.000', 12, 'Saturday', 'W17', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-22 00:00:00.000', 'Saturday', 30, 20230422
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240421, '2024-04-21 00:00:00.000', 13, 'Sunday', 'W17', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-23 00:00:00.000', 'Sunday', 30, 20230423
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240422, '2024-04-22 00:00:00.000', 14, 'Monday', 'W17', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-24 00:00:00.000', 'Monday', 30, 20230424
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240423, '2024-04-23 00:00:00.000', 15, 'Tuesday', 'W17', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-25 00:00:00.000', 'Tuesday', 30, 20230425
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240424, '2024-04-24 00:00:00.000', 16, 'Wednesday', 'W17', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-26 00:00:00.000', 'Wednesday', 30, 20230426
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240425, '2024-04-25 00:00:00.000', 17, 'Thursday', 'W18', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-27 00:00:00.000', 'Thursday', 30, 20230427
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240426, '2024-04-26 00:00:00.000', 18, 'Friday', 'W18', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-28 00:00:00.000', 'Friday', 30, 20230428
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240427, '2024-04-27 00:00:00.000', 19, 'Saturday', 'W18', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-29 00:00:00.000', 'Saturday', 30, 20230429
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240428, '2024-04-28 00:00:00.000', 20, 'Sunday', 'W18', 'Weekend',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-04-30 00:00:00.000', 'Sunday', 30, 20230430
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240429, '2024-04-29 00:00:00.000', 21, 'Monday', 'W18', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-05-01 00:00:00.000', 'Monday', 30, 20230501
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240430, '2024-04-30 00:00:00.000', 22, 'Tuesday', 'W18', 'Weekday',
+        'April', '202404', 'Q2', 2024, 'Non Festive',
+        '2023-05-02 00:00:00.000', 'Tuesday', 30, 20230502
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240501, '2024-05-01 00:00:00.000', 23, 'Wednesday', 'W18', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-03 00:00:00.000', 'Wednesday', 31, 20230503
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240502, '2024-05-02 00:00:00.000', 24, 'Thursday', 'W19', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-04 00:00:00.000', 'Thursday', 31, 20230504
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240503, '2024-05-03 00:00:00.000', 25, 'Friday', 'W19', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-05 00:00:00.000', 'Friday', 31, 20230505
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240504, '2024-05-04 00:00:00.000', 26, 'Saturday', 'W19', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-06 00:00:00.000', 'Saturday', 31, 20230506
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240505, '2024-05-05 00:00:00.000', 27, 'Sunday', 'W19', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-07 00:00:00.000', 'Sunday', 31, 20230507
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240506, '2024-05-06 00:00:00.000', 28, 'Monday', 'W19', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-08 00:00:00.000', 'Monday', 31, 20230508
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240507, '2024-05-07 00:00:00.000', 29, 'Tuesday', 'W19', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-09 00:00:00.000', 'Tuesday', 31, 20230509
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240508, '2024-05-08 00:00:00.000', 30, 'Wednesday', 'W19', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-10 00:00:00.000', 'Wednesday', 31, 20230510
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240509, '2024-05-09 00:00:00.000', 1, 'Thursday', 'W20', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-11 00:00:00.000', 'Thursday', 31, 20230511
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240510, '2024-05-10 00:00:00.000', 2, 'Friday', 'W20', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-12 00:00:00.000', 'Friday', 31, 20230512
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240511, '2024-05-11 00:00:00.000', 3, 'Saturday', 'W20', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-13 00:00:00.000', 'Saturday', 31, 20230513
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240512, '2024-05-12 00:00:00.000', 4, 'Sunday', 'W20', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-14 00:00:00.000', 'Sunday', 31, 20230514
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240513, '2024-05-13 00:00:00.000', 5, 'Monday', 'W20', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-15 00:00:00.000', 'Monday', 31, 20230515
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240514, '2024-05-14 00:00:00.000', 6, 'Tuesday', 'W20', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-16 00:00:00.000', 'Tuesday', 31, 20230516
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240515, '2024-05-15 00:00:00.000', 7, 'Wednesday', 'W20', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-17 00:00:00.000', 'Wednesday', 31, 20230517
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240516, '2024-05-16 00:00:00.000', 8, 'Thursday', 'W21', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-18 00:00:00.000', 'Thursday', 31, 20230518
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240517, '2024-05-17 00:00:00.000', 9, 'Friday', 'W21', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-19 00:00:00.000', 'Friday', 31, 20230519
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240518, '2024-05-18 00:00:00.000', 10, 'Saturday', 'W21', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-20 00:00:00.000', 'Saturday', 31, 20230520
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240519, '2024-05-19 00:00:00.000', 11, 'Sunday', 'W21', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-21 00:00:00.000', 'Sunday', 31, 20230521
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240520, '2024-05-20 00:00:00.000', 12, 'Monday', 'W21', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-22 00:00:00.000', 'Monday', 31, 20230522
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240521, '2024-05-21 00:00:00.000', 13, 'Tuesday', 'W21', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-23 00:00:00.000', 'Tuesday', 31, 20230523
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240522, '2024-05-22 00:00:00.000', 14, 'Wednesday', 'W21', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-24 00:00:00.000', 'Wednesday', 31, 20230524
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240523, '2024-05-23 00:00:00.000', 15, 'Thursday', 'W22', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-25 00:00:00.000', 'Thursday', 31, 20230525
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240524, '2024-05-24 00:00:00.000', 16, 'Friday', 'W22', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-26 00:00:00.000', 'Friday', 31, 20230526
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240525, '2024-05-25 00:00:00.000', 17, 'Saturday', 'W22', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-27 00:00:00.000', 'Saturday', 31, 20230527
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240526, '2024-05-26 00:00:00.000', 18, 'Sunday', 'W22', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-28 00:00:00.000', 'Sunday', 31, 20230528
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240527, '2024-05-27 00:00:00.000', 19, 'Monday', 'W22', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-29 00:00:00.000', 'Monday', 31, 20230529
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240528, '2024-05-28 00:00:00.000', 20, 'Tuesday', 'W22', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-30 00:00:00.000', 'Tuesday', 31, 20230530
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240529, '2024-05-29 00:00:00.000', 21, 'Wednesday', 'W22', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-05-31 00:00:00.000', 'Wednesday', 31, 20230531
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240530, '2024-05-30 00:00:00.000', 22, 'Thursday', 'W23', 'Weekday',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-06-01 00:00:00.000', 'Thursday', 31, 20230601
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240531, '2024-05-31 00:00:00.000', 23, 'Friday', 'W23', 'Weekend',
+        'May', '202405', 'Q2', 2024, 'Non Festive',
+        '2023-06-02 00:00:00.000', 'Friday', 31, 20230602
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240601, '2024-06-01 00:00:00.000', 24, 'Saturday', 'W23', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-03 00:00:00.000', 'Saturday', 30, 20230603
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240602, '2024-06-02 00:00:00.000', 25, 'Sunday', 'W23', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-04 00:00:00.000', 'Sunday', 30, 20230604
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240603, '2024-06-03 00:00:00.000', 26, 'Monday', 'W23', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-05 00:00:00.000', 'Monday', 30, 20230605
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240604, '2024-06-04 00:00:00.000', 27, 'Tuesday', 'W23', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-06 00:00:00.000', 'Tuesday', 30, 20230606
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240605, '2024-06-05 00:00:00.000', 28, 'Wednesday', 'W23', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-07 00:00:00.000', 'Wednesday', 30, 20230607
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240606, '2024-06-06 00:00:00.000', 29, 'Thursday', 'W24', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-08 00:00:00.000', 'Thursday', 30, 20230608
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240607, '2024-06-07 00:00:00.000', 30, 'Friday', 'W24', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-09 00:00:00.000', 'Friday', 30, 20230609
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240608, '2024-06-08 00:00:00.000', 1, 'Saturday', 'W24', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-10 00:00:00.000', 'Saturday', 30, 20230610
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240609, '2024-06-09 00:00:00.000', 2, 'Sunday', 'W24', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-11 00:00:00.000', 'Sunday', 30, 20230611
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240610, '2024-06-10 00:00:00.000', 3, 'Monday', 'W24', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-12 00:00:00.000', 'Monday', 30, 20230612
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240611, '2024-06-11 00:00:00.000', 4, 'Tuesday', 'W24', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-13 00:00:00.000', 'Tuesday', 30, 20230613
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240612, '2024-06-12 00:00:00.000', 5, 'Wednesday', 'W24', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-14 00:00:00.000', 'Wednesday', 30, 20230614
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240613, '2024-06-13 00:00:00.000', 6, 'Thursday', 'W25', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-15 00:00:00.000', 'Thursday', 30, 20230615
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240614, '2024-06-14 00:00:00.000', 7, 'Friday', 'W25', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-16 00:00:00.000', 'Friday', 30, 20230616
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240615, '2024-06-15 00:00:00.000', 8, 'Saturday', 'W25', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-17 00:00:00.000', 'Saturday', 30, 20230617
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240616, '2024-06-16 00:00:00.000', 9, 'Sunday', 'W25', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-18 00:00:00.000', 'Sunday', 30, 20230618
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240617, '2024-06-17 00:00:00.000', 10, 'Monday', 'W25', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-19 00:00:00.000', 'Monday', 30, 20230619
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240618, '2024-06-18 00:00:00.000', 11, 'Tuesday', 'W25', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-20 00:00:00.000', 'Tuesday', 30, 20230620
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240619, '2024-06-19 00:00:00.000', 12, 'Wednesday', 'W25', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-21 00:00:00.000', 'Wednesday', 30, 20230621
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240620, '2024-06-20 00:00:00.000', 13, 'Thursday', 'W26', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-22 00:00:00.000', 'Thursday', 30, 20230622
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240621, '2024-06-21 00:00:00.000', 14, 'Friday', 'W26', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-23 00:00:00.000', 'Friday', 30, 20230623
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240622, '2024-06-22 00:00:00.000', 15, 'Saturday', 'W26', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-24 00:00:00.000', 'Saturday', 30, 20230624
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240623, '2024-06-23 00:00:00.000', 16, 'Sunday', 'W26', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-25 00:00:00.000', 'Sunday', 30, 20230625
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240624, '2024-06-24 00:00:00.000', 17, 'Monday', 'W26', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-26 00:00:00.000', 'Monday', 30, 20230626
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240625, '2024-06-25 00:00:00.000', 18, 'Tuesday', 'W26', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-27 00:00:00.000', 'Tuesday', 30, 20230627
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240626, '2024-06-26 00:00:00.000', 19, 'Wednesday', 'W26', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-28 00:00:00.000', 'Wednesday', 30, 20230628
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240627, '2024-06-27 00:00:00.000', 20, 'Thursday', 'W27', 'Weekday',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-29 00:00:00.000', 'Thursday', 30, 20230629
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240628, '2024-06-28 00:00:00.000', 21, 'Friday', 'W27', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-06-30 00:00:00.000', 'Friday', 30, 20230630
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240629, '2024-06-29 00:00:00.000', 22, 'Saturday', 'W27', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-07-01 00:00:00.000', 'Saturday', 30, 20230701
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240630, '2024-06-30 00:00:00.000', 23, 'Sunday', 'W27', 'Weekend',
+        'June', '202406', 'Q2', 2024, 'Non Festive',
+        '2023-07-02 00:00:00.000', 'Sunday', 30, 20230702
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240701, '2024-07-01 00:00:00.000', 24, 'Monday', 'W27', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-03 00:00:00.000', 'Monday', 31, 20230703
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240702, '2024-07-02 00:00:00.000', 25, 'Tuesday', 'W27', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-04 00:00:00.000', 'Tuesday', 31, 20230704
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240703, '2024-07-03 00:00:00.000', 26, 'Wednesday', 'W27', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-05 00:00:00.000', 'Wednesday', 31, 20230705
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240704, '2024-07-04 00:00:00.000', 27, 'Thursday', 'W28', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-06 00:00:00.000', 'Thursday', 31, 20230706
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240705, '2024-07-05 00:00:00.000', 28, 'Friday', 'W28', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-07 00:00:00.000', 'Friday', 31, 20230707
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240706, '2024-07-06 00:00:00.000', 29, 'Saturday', 'W28', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-08 00:00:00.000', 'Saturday', 31, 20230708
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240707, '2024-07-07 00:00:00.000', 30, 'Sunday', 'W28', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-09 00:00:00.000', 'Sunday', 31, 20230709
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240708, '2024-07-08 00:00:00.000', 1, 'Monday', 'W28', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-10 00:00:00.000', 'Monday', 31, 20230710
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240709, '2024-07-09 00:00:00.000', 2, 'Tuesday', 'W28', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-11 00:00:00.000', 'Tuesday', 31, 20230711
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240710, '2024-07-10 00:00:00.000', 3, 'Wednesday', 'W28', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-12 00:00:00.000', 'Wednesday', 31, 20230712
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240711, '2024-07-11 00:00:00.000', 4, 'Thursday', 'W29', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-13 00:00:00.000', 'Thursday', 31, 20230713
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240712, '2024-07-12 00:00:00.000', 5, 'Friday', 'W29', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-14 00:00:00.000', 'Friday', 31, 20230714
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240713, '2024-07-13 00:00:00.000', 6, 'Saturday', 'W29', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-15 00:00:00.000', 'Saturday', 31, 20230715
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240714, '2024-07-14 00:00:00.000', 7, 'Sunday', 'W29', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-16 00:00:00.000', 'Sunday', 31, 20230716
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240715, '2024-07-15 00:00:00.000', 8, 'Monday', 'W29', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-17 00:00:00.000', 'Monday', 31, 20230717
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240716, '2024-07-16 00:00:00.000', 9, 'Tuesday', 'W29', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-18 00:00:00.000', 'Tuesday', 31, 20230718
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240717, '2024-07-17 00:00:00.000', 10, 'Wednesday', 'W29', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-19 00:00:00.000', 'Wednesday', 31, 20230719
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240718, '2024-07-18 00:00:00.000', 11, 'Thursday', 'W30', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-20 00:00:00.000', 'Thursday', 31, 20230720
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240719, '2024-07-19 00:00:00.000', 12, 'Friday', 'W30', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-21 00:00:00.000', 'Friday', 31, 20230721
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240720, '2024-07-20 00:00:00.000', 13, 'Saturday', 'W30', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-22 00:00:00.000', 'Saturday', 31, 20230722
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240721, '2024-07-21 00:00:00.000', 14, 'Sunday', 'W30', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-23 00:00:00.000', 'Sunday', 31, 20230723
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240722, '2024-07-22 00:00:00.000', 15, 'Monday', 'W30', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-24 00:00:00.000', 'Monday', 31, 20230724
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240723, '2024-07-23 00:00:00.000', 16, 'Tuesday', 'W30', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-25 00:00:00.000', 'Tuesday', 31, 20230725
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240724, '2024-07-24 00:00:00.000', 17, 'Wednesday', 'W30', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-26 00:00:00.000', 'Wednesday', 31, 20230726
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240725, '2024-07-25 00:00:00.000', 18, 'Thursday', 'W31', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-27 00:00:00.000', 'Thursday', 31, 20230727
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240726, '2024-07-26 00:00:00.000', 19, 'Friday', 'W31', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-28 00:00:00.000', 'Friday', 31, 20230728
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240727, '2024-07-27 00:00:00.000', 20, 'Saturday', 'W31', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-29 00:00:00.000', 'Saturday', 31, 20230729
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240728, '2024-07-28 00:00:00.000', 21, 'Sunday', 'W31', 'Weekend',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-30 00:00:00.000', 'Sunday', 31, 20230730
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240729, '2024-07-29 00:00:00.000', 22, 'Monday', 'W31', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-07-31 00:00:00.000', 'Monday', 31, 20230731
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240730, '2024-07-30 00:00:00.000', 23, 'Tuesday', 'W31', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-08-01 00:00:00.000', 'Tuesday', 31, 20230801
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240731, '2024-07-31 00:00:00.000', 24, 'Wednesday', 'W31', 'Weekday',
+        'July', '202407', 'Q3', 2024, 'Non Festive',
+        '2023-08-02 00:00:00.000', 'Wednesday', 31, 20230802
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240801, '2024-08-01 00:00:00.000', 25, 'Thursday', 'W32', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-03 00:00:00.000', 'Thursday', 31, 20230803
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240802, '2024-08-02 00:00:00.000', 26, 'Friday', 'W32', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-04 00:00:00.000', 'Friday', 31, 20230804
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240803, '2024-08-03 00:00:00.000', 27, 'Saturday', 'W32', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-05 00:00:00.000', 'Saturday', 31, 20230805
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240804, '2024-08-04 00:00:00.000', 28, 'Sunday', 'W32', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-06 00:00:00.000', 'Sunday', 31, 20230806
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240805, '2024-08-05 00:00:00.000', 29, 'Monday', 'W32', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-07 00:00:00.000', 'Monday', 31, 20230807
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240806, '2024-08-06 00:00:00.000', 30, 'Tuesday', 'W32', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-08 00:00:00.000', 'Tuesday', 31, 20230808
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240807, '2024-08-07 00:00:00.000', 1, 'Wednesday', 'W32', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-09 00:00:00.000', 'Wednesday', 31, 20230809
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240808, '2024-08-08 00:00:00.000', 2, 'Thursday', 'W33', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-10 00:00:00.000', 'Thursday', 31, 20230810
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240809, '2024-08-09 00:00:00.000', 3, 'Friday', 'W33', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-11 00:00:00.000', 'Friday', 31, 20230811
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240810, '2024-08-10 00:00:00.000', 4, 'Saturday', 'W33', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-12 00:00:00.000', 'Saturday', 31, 20230812
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240811, '2024-08-11 00:00:00.000', 5, 'Sunday', 'W33', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-13 00:00:00.000', 'Sunday', 31, 20230813
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240812, '2024-08-12 00:00:00.000', 6, 'Monday', 'W33', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-14 00:00:00.000', 'Monday', 31, 20230814
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240813, '2024-08-13 00:00:00.000', 7, 'Tuesday', 'W33', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-15 00:00:00.000', 'Tuesday', 31, 20230815
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240814, '2024-08-14 00:00:00.000', 8, 'Wednesday', 'W33', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-16 00:00:00.000', 'Wednesday', 31, 20230816
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240815, '2024-08-15 00:00:00.000', 9, 'Thursday', 'W34', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-17 00:00:00.000', 'Thursday', 31, 20230817
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240816, '2024-08-16 00:00:00.000', 10, 'Friday', 'W34', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-18 00:00:00.000', 'Friday', 31, 20230818
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240817, '2024-08-17 00:00:00.000', 11, 'Saturday', 'W34', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-19 00:00:00.000', 'Saturday', 31, 20230819
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240818, '2024-08-18 00:00:00.000', 12, 'Sunday', 'W34', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-20 00:00:00.000', 'Sunday', 31, 20230820
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240819, '2024-08-19 00:00:00.000', 13, 'Monday', 'W34', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-21 00:00:00.000', 'Monday', 31, 20230821
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240820, '2024-08-20 00:00:00.000', 14, 'Tuesday', 'W34', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-22 00:00:00.000', 'Tuesday', 31, 20230822
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240821, '2024-08-21 00:00:00.000', 15, 'Wednesday', 'W34', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-23 00:00:00.000', 'Wednesday', 31, 20230823
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240822, '2024-08-22 00:00:00.000', 16, 'Thursday', 'W35', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-24 00:00:00.000', 'Thursday', 31, 20230824
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240823, '2024-08-23 00:00:00.000', 17, 'Friday', 'W35', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-25 00:00:00.000', 'Friday', 31, 20230825
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240824, '2024-08-24 00:00:00.000', 18, 'Saturday', 'W35', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-26 00:00:00.000', 'Saturday', 31, 20230826
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240825, '2024-08-25 00:00:00.000', 19, 'Sunday', 'W35', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-27 00:00:00.000', 'Sunday', 31, 20230827
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240826, '2024-08-26 00:00:00.000', 20, 'Monday', 'W35', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-28 00:00:00.000', 'Monday', 31, 20230828
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240827, '2024-08-27 00:00:00.000', 21, 'Tuesday', 'W35', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-29 00:00:00.000', 'Tuesday', 31, 20230829
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240828, '2024-08-28 00:00:00.000', 22, 'Wednesday', 'W35', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-30 00:00:00.000', 'Wednesday', 31, 20230830
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240829, '2024-08-29 00:00:00.000', 23, 'Thursday', 'W36', 'Weekday',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-08-31 00:00:00.000', 'Thursday', 31, 20230831
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240830, '2024-08-30 00:00:00.000', 24, 'Friday', 'W36', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-09-01 00:00:00.000', 'Friday', 31, 20230901
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240831, '2024-08-31 00:00:00.000', 25, 'Saturday', 'W36', 'Weekend',
+        'August', '202408', 'Q3', 2024, 'Non Festive',
+        '2023-09-02 00:00:00.000', 'Saturday', 31, 20230902
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240901, '2024-09-01 00:00:00.000', 26, 'Sunday', 'W36', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-03 00:00:00.000', 'Sunday', 30, 20230903
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240902, '2024-09-02 00:00:00.000', 27, 'Monday', 'W36', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-04 00:00:00.000', 'Monday', 30, 20230904
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240903, '2024-09-03 00:00:00.000', 28, 'Tuesday', 'W36', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-05 00:00:00.000', 'Tuesday', 30, 20230905
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240904, '2024-09-04 00:00:00.000', 29, 'Wednesday', 'W36', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-06 00:00:00.000', 'Wednesday', 30, 20230906
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240905, '2024-09-05 00:00:00.000', 30, 'Thursday', 'W37', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-07 00:00:00.000', 'Thursday', 30, 20230907
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240906, '2024-09-06 00:00:00.000', 1, 'Friday', 'W37', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-08 00:00:00.000', 'Friday', 30, 20230908
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240907, '2024-09-07 00:00:00.000', 2, 'Saturday', 'W37', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-09 00:00:00.000', 'Saturday', 30, 20230909
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240908, '2024-09-08 00:00:00.000', 3, 'Sunday', 'W37', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-10 00:00:00.000', 'Sunday', 30, 20230910
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240909, '2024-09-09 00:00:00.000', 4, 'Monday', 'W37', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-11 00:00:00.000', 'Monday', 30, 20230911
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240910, '2024-09-10 00:00:00.000', 5, 'Tuesday', 'W37', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-12 00:00:00.000', 'Tuesday', 30, 20230912
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240911, '2024-09-11 00:00:00.000', 6, 'Wednesday', 'W37', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-13 00:00:00.000', 'Wednesday', 30, 20230913
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240912, '2024-09-12 00:00:00.000', 7, 'Thursday', 'W38', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-14 00:00:00.000', 'Thursday', 30, 20230914
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240913, '2024-09-13 00:00:00.000', 8, 'Friday', 'W38', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-15 00:00:00.000', 'Friday', 30, 20230915
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240914, '2024-09-14 00:00:00.000', 9, 'Saturday', 'W38', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-16 00:00:00.000', 'Saturday', 30, 20230916
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240915, '2024-09-15 00:00:00.000', 10, 'Sunday', 'W38', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-17 00:00:00.000', 'Sunday', 30, 20230917
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240916, '2024-09-16 00:00:00.000', 11, 'Monday', 'W38', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-18 00:00:00.000', 'Monday', 30, 20230918
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240917, '2024-09-17 00:00:00.000', 12, 'Tuesday', 'W38', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-19 00:00:00.000', 'Tuesday', 30, 20230919
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240918, '2024-09-18 00:00:00.000', 13, 'Wednesday', 'W38', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-20 00:00:00.000', 'Wednesday', 30, 20230920
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240919, '2024-09-19 00:00:00.000', 14, 'Thursday', 'W39', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-21 00:00:00.000', 'Thursday', 30, 20230921
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240920, '2024-09-20 00:00:00.000', 15, 'Friday', 'W39', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-22 00:00:00.000', 'Friday', 30, 20230922
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240921, '2024-09-21 00:00:00.000', 16, 'Saturday', 'W39', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-23 00:00:00.000', 'Saturday', 30, 20230923
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240922, '2024-09-22 00:00:00.000', 17, 'Sunday', 'W39', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-24 00:00:00.000', 'Sunday', 30, 20230924
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240923, '2024-09-23 00:00:00.000', 18, 'Monday', 'W39', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-25 00:00:00.000', 'Monday', 30, 20230925
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240924, '2024-09-24 00:00:00.000', 19, 'Tuesday', 'W39', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-26 00:00:00.000', 'Tuesday', 30, 20230926
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240925, '2024-09-25 00:00:00.000', 20, 'Wednesday', 'W39', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-27 00:00:00.000', 'Wednesday', 30, 20230927
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240926, '2024-09-26 00:00:00.000', 21, 'Thursday', 'W40', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-28 00:00:00.000', 'Thursday', 30, 20230928
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240927, '2024-09-27 00:00:00.000', 22, 'Friday', 'W40', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-29 00:00:00.000', 'Friday', 30, 20230929
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240928, '2024-09-28 00:00:00.000', 23, 'Saturday', 'W40', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-09-30 00:00:00.000', 'Saturday', 30, 20230930
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240929, '2024-09-29 00:00:00.000', 24, 'Sunday', 'W40', 'Weekend',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-10-01 00:00:00.000', 'Sunday', 30, 20231001
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20240930, '2024-09-30 00:00:00.000', 25, 'Monday', 'W40', 'Weekday',
+        'September', '202409', 'Q3', 2024, 'Non Festive',
+        '2023-10-02 00:00:00.000', 'Monday', 30, 20231002
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241001, '2024-10-01 00:00:00.000', 26, 'Tuesday', 'W40', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-03 00:00:00.000', 'Tuesday', 31, 20231003
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241002, '2024-10-02 00:00:00.000', 27, 'Wednesday', 'W40', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-04 00:00:00.000', 'Wednesday', 31, 20231004
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241003, '2024-10-03 00:00:00.000', 28, 'Thursday', 'W41', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-05 00:00:00.000', 'Thursday', 31, 20231005
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241004, '2024-10-04 00:00:00.000', 29, 'Friday', 'W41', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-06 00:00:00.000', 'Friday', 31, 20231006
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241005, '2024-10-05 00:00:00.000', 30, 'Saturday', 'W41', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-07 00:00:00.000', 'Saturday', 31, 20231007
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241006, '2024-10-06 00:00:00.000', 1, 'Sunday', 'W41', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-08 00:00:00.000', 'Sunday', 31, 20231008
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241007, '2024-10-07 00:00:00.000', 2, 'Monday', 'W41', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-09 00:00:00.000', 'Monday', 31, 20231009
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241008, '2024-10-08 00:00:00.000', 3, 'Tuesday', 'W41', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-10 00:00:00.000', 'Tuesday', 31, 20231010
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241009, '2024-10-09 00:00:00.000', 4, 'Wednesday', 'W41', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-11 00:00:00.000', 'Wednesday', 31, 20231011
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241010, '2024-10-10 00:00:00.000', 5, 'Thursday', 'W42', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-12 00:00:00.000', 'Thursday', 31, 20231012
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241011, '2024-10-11 00:00:00.000', 6, 'Friday', 'W42', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-13 00:00:00.000', 'Friday', 31, 20231013
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241012, '2024-10-12 00:00:00.000', 7, 'Saturday', 'W42', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-14 00:00:00.000', 'Saturday', 31, 20231014
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241013, '2024-10-13 00:00:00.000', 8, 'Sunday', 'W42', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-15 00:00:00.000', 'Sunday', 31, 20231015
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241014, '2024-10-14 00:00:00.000', 9, 'Monday', 'W42', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-16 00:00:00.000', 'Monday', 31, 20231016
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241015, '2024-10-15 00:00:00.000', 10, 'Tuesday', 'W42', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-17 00:00:00.000', 'Tuesday', 31, 20231017
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241016, '2024-10-16 00:00:00.000', 11, 'Wednesday', 'W42', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-18 00:00:00.000', 'Wednesday', 31, 20231018
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241017, '2024-10-17 00:00:00.000', 12, 'Thursday', 'W43', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-19 00:00:00.000', 'Thursday', 31, 20231019
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241018, '2024-10-18 00:00:00.000', 13, 'Friday', 'W43', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-20 00:00:00.000', 'Friday', 31, 20231020
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241019, '2024-10-19 00:00:00.000', 14, 'Saturday', 'W43', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-21 00:00:00.000', 'Saturday', 31, 20231021
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241020, '2024-10-20 00:00:00.000', 15, 'Sunday', 'W43', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-22 00:00:00.000', 'Sunday', 31, 20231022
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241021, '2024-10-21 00:00:00.000', 16, 'Monday', 'W43', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-23 00:00:00.000', 'Monday', 31, 20231023
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241022, '2024-10-22 00:00:00.000', 17, 'Tuesday', 'W43', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-24 00:00:00.000', 'Tuesday', 31, 20231024
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241023, '2024-10-23 00:00:00.000', 18, 'Wednesday', 'W43', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-25 00:00:00.000', 'Wednesday', 31, 20231025
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241024, '2024-10-24 00:00:00.000', 19, 'Thursday', 'W44', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-26 00:00:00.000', 'Thursday', 31, 20231026
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241025, '2024-10-25 00:00:00.000', 20, 'Friday', 'W44', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-27 00:00:00.000', 'Friday', 31, 20231027
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241026, '2024-10-26 00:00:00.000', 21, 'Saturday', 'W44', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-28 00:00:00.000', 'Saturday', 31, 20231028
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241027, '2024-10-27 00:00:00.000', 22, 'Sunday', 'W44', 'Weekend',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-29 00:00:00.000', 'Sunday', 31, 20231029
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241028, '2024-10-28 00:00:00.000', 23, 'Monday', 'W44', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-30 00:00:00.000', 'Monday', 31, 20231030
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241029, '2024-10-29 00:00:00.000', 24, 'Tuesday', 'W44', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-10-31 00:00:00.000', 'Tuesday', 31, 20231031
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241030, '2024-10-30 00:00:00.000', 25, 'Wednesday', 'W44', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-11-01 00:00:00.000', 'Wednesday', 31, 20231101
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241031, '2024-10-31 00:00:00.000', 26, 'Thursday', 'W45', 'Weekday',
+        'October', '202410', 'Q4', 2024, 'Non Festive',
+        '2023-11-02 00:00:00.000', 'Thursday', 31, 20231102
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241101, '2024-11-01 00:00:00.000', 27, 'Friday', 'W45', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-03 00:00:00.000', 'Friday', 30, 20231103
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241102, '2024-11-02 00:00:00.000', 28, 'Saturday', 'W45', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-04 00:00:00.000', 'Saturday', 30, 20231104
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241103, '2024-11-03 00:00:00.000', 29, 'Sunday', 'W45', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-05 00:00:00.000', 'Sunday', 30, 20231105
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241104, '2024-11-04 00:00:00.000', 30, 'Monday', 'W45', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-06 00:00:00.000', 'Monday', 30, 20231106
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241105, '2024-11-05 00:00:00.000', 1, 'Tuesday', 'W45', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-07 00:00:00.000', 'Tuesday', 30, 20231107
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241106, '2024-11-06 00:00:00.000', 2, 'Wednesday', 'W45', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-08 00:00:00.000', 'Wednesday', 30, 20231108
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241107, '2024-11-07 00:00:00.000', 3, 'Thursday', 'W46', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-09 00:00:00.000', 'Thursday', 30, 20231109
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241108, '2024-11-08 00:00:00.000', 4, 'Friday', 'W46', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-10 00:00:00.000', 'Friday', 30, 20231110
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241109, '2024-11-09 00:00:00.000', 5, 'Saturday', 'W46', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-11 00:00:00.000', 'Saturday', 30, 20231111
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241110, '2024-11-10 00:00:00.000', 6, 'Sunday', 'W46', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-12 00:00:00.000', 'Sunday', 30, 20231112
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241111, '2024-11-11 00:00:00.000', 7, 'Monday', 'W46', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-13 00:00:00.000', 'Monday', 30, 20231113
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241112, '2024-11-12 00:00:00.000', 8, 'Tuesday', 'W46', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-14 00:00:00.000', 'Tuesday', 30, 20231114
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241113, '2024-11-13 00:00:00.000', 9, 'Wednesday', 'W46', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-15 00:00:00.000', 'Wednesday', 30, 20231115
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241114, '2024-11-14 00:00:00.000', 10, 'Thursday', 'W47', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-16 00:00:00.000', 'Thursday', 30, 20231116
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241115, '2024-11-15 00:00:00.000', 11, 'Friday', 'W47', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-17 00:00:00.000', 'Friday', 30, 20231117
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241116, '2024-11-16 00:00:00.000', 12, 'Saturday', 'W47', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-18 00:00:00.000', 'Saturday', 30, 20231118
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241117, '2024-11-17 00:00:00.000', 13, 'Sunday', 'W47', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-19 00:00:00.000', 'Sunday', 30, 20231119
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241118, '2024-11-18 00:00:00.000', 14, 'Monday', 'W47', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-20 00:00:00.000', 'Monday', 30, 20231120
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241119, '2024-11-19 00:00:00.000', 15, 'Tuesday', 'W47', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-21 00:00:00.000', 'Tuesday', 30, 20231121
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241120, '2024-11-20 00:00:00.000', 16, 'Wednesday', 'W47', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-22 00:00:00.000', 'Wednesday', 30, 20231122
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241121, '2024-11-21 00:00:00.000', 17, 'Thursday', 'W48', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-23 00:00:00.000', 'Thursday', 30, 20231123
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241122, '2024-11-22 00:00:00.000', 18, 'Friday', 'W48', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-24 00:00:00.000', 'Friday', 30, 20231124
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241123, '2024-11-23 00:00:00.000', 19, 'Saturday', 'W48', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-25 00:00:00.000', 'Saturday', 30, 20231125
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241124, '2024-11-24 00:00:00.000', 20, 'Sunday', 'W48', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-26 00:00:00.000', 'Sunday', 30, 20231126
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241125, '2024-11-25 00:00:00.000', 21, 'Monday', 'W48', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-27 00:00:00.000', 'Monday', 30, 20231127
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241126, '2024-11-26 00:00:00.000', 22, 'Tuesday', 'W48', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-28 00:00:00.000', 'Tuesday', 30, 20231128
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241127, '2024-11-27 00:00:00.000', 23, 'Wednesday', 'W48', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-29 00:00:00.000', 'Wednesday', 30, 20231129
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241128, '2024-11-28 00:00:00.000', 24, 'Thursday', 'W49', 'Weekday',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-11-30 00:00:00.000', 'Thursday', 30, 20231130
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241129, '2024-11-29 00:00:00.000', 25, 'Friday', 'W49', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-12-01 00:00:00.000', 'Friday', 30, 20231201
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241130, '2024-11-30 00:00:00.000', 26, 'Saturday', 'W49', 'Weekend',
+        'November', '202411', 'Q4', 2024, 'Non Festive',
+        '2023-12-02 00:00:00.000', 'Saturday', 30, 20231202
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241201, '2024-12-01 00:00:00.000', 27, 'Sunday', 'W49', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-03 00:00:00.000', 'Sunday', 31, 20231203
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241202, '2024-12-02 00:00:00.000', 28, 'Monday', 'W49', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-04 00:00:00.000', 'Monday', 31, 20231204
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241203, '2024-12-03 00:00:00.000', 1, 'Tuesday', 'W49', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-05 00:00:00.000', 'Tuesday', 31, 20231205
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241204, '2024-12-04 00:00:00.000', 2, 'Wednesday', 'W49', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-06 00:00:00.000', 'Wednesday', 31, 20231206
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241205, '2024-12-05 00:00:00.000', 3, 'Thursday', 'W50', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-07 00:00:00.000', 'Thursday', 31, 20231207
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241206, '2024-12-06 00:00:00.000', 4, 'Friday', 'W50', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-08 00:00:00.000', 'Friday', 31, 20231208
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241207, '2024-12-07 00:00:00.000', 5, 'Saturday', 'W50', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-09 00:00:00.000', 'Saturday', 31, 20231209
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241208, '2024-12-08 00:00:00.000', 6, 'Sunday', 'W50', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-10 00:00:00.000', 'Sunday', 31, 20231210
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241209, '2024-12-09 00:00:00.000', 7, 'Monday', 'W50', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-11 00:00:00.000', 'Monday', 31, 20231211
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241210, '2024-12-10 00:00:00.000', 8, 'Tuesday', 'W50', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-12 00:00:00.000', 'Tuesday', 31, 20231212
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241211, '2024-12-11 00:00:00.000', 9, 'Wednesday', 'W50', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-13 00:00:00.000', 'Wednesday', 31, 20231213
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241212, '2024-12-12 00:00:00.000', 10, 'Thursday', 'W51', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-14 00:00:00.000', 'Thursday', 31, 20231214
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241213, '2024-12-13 00:00:00.000', 11, 'Friday', 'W51', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-15 00:00:00.000', 'Friday', 31, 20231215
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241214, '2024-12-14 00:00:00.000', 12, 'Saturday', 'W51', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-16 00:00:00.000', 'Saturday', 31, 20231216
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241215, '2024-12-15 00:00:00.000', 13, 'Sunday', 'W51', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-17 00:00:00.000', 'Sunday', 31, 20231217
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241216, '2024-12-16 00:00:00.000', 14, 'Monday', 'W51', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-18 00:00:00.000', 'Monday', 31, 20231218
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241217, '2024-12-17 00:00:00.000', 15, 'Tuesday', 'W51', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-19 00:00:00.000', 'Tuesday', 31, 20231219
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241218, '2024-12-18 00:00:00.000', 16, 'Wednesday', 'W51', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-20 00:00:00.000', 'Wednesday', 31, 20231220
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241219, '2024-12-19 00:00:00.000', 17, 'Thursday', 'W52', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-21 00:00:00.000', 'Thursday', 31, 20231221
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241220, '2024-12-20 00:00:00.000', 18, 'Friday', 'W52', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-22 00:00:00.000', 'Friday', 31, 20231222
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241221, '2024-12-21 00:00:00.000', 19, 'Saturday', 'W52', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-23 00:00:00.000', 'Saturday', 31, 20231223
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241222, '2024-12-22 00:00:00.000', 20, 'Sunday', 'W52', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-24 00:00:00.000', 'Sunday', 31, 20231224
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241223, '2024-12-23 00:00:00.000', 21, 'Monday', 'W52', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-25 00:00:00.000', 'Monday', 31, 20231225
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241224, '2024-12-24 00:00:00.000', 22, 'Tuesday', 'W52', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-26 00:00:00.000', 'Tuesday', 31, 20231226
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241225, '2024-12-25 00:00:00.000', 23, 'Wednesday', 'W52', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-27 00:00:00.000', 'Wednesday', 31, 20231227
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241226, '2024-12-26 00:00:00.000', 24, 'Thursday', 'W53', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-28 00:00:00.000', 'Thursday', 31, 20231228
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241227, '2024-12-27 00:00:00.000', 25, 'Friday', 'W53', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-29 00:00:00.000', 'Friday', 31, 20231229
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241228, '2024-12-28 00:00:00.000', 26, 'Saturday', 'W53', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-30 00:00:00.000', 'Saturday', 31, 20231230
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241229, '2024-12-29 00:00:00.000', 27, 'Sunday', 'W53', 'Weekend',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2023-12-31 00:00:00.000', 'Sunday', 31, 20231231
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241230, '2024-12-30 00:00:00.000', 28, 'Monday', 'W53', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2024-01-01 00:00:00.000', 'Monday', 31, 20240101
+    );
+    
+    INSERT INTO dim_date (
+        PERIOD_KEY, PERIOD_DESC, DAY_NUMBER, DAY, WEEK_DESC, WEEK_TYPE,
+        MONTH_DESC, MONYY_DESC, QUARTER_DESC, YEAR, FESTIVE, PREV_YEAR, PREVYEAR_DAY, MONTH_DAY, PREV_YEAR_KEY
+    ) VALUES (
+        20241231, '2024-12-31 00:00:00.000', 29, 'Tuesday', 'W53', 'Weekday',
+        'December', '202412', 'Q4', 2024, 'Non Festive',
+        '2024-01-02 00:00:00.000', 'Tuesday', 31, 20240102
+    );
+    
